@@ -1,0 +1,1631 @@
+{
+  "generatedAt": "2026-02-20T13:39:44Z",
+  "market": "over_2_5_goals",
+  "competitions": {
+    "E0": {
+      "name": "Premier League",
+      "crest": "https://crests.football-data.org/PL.png"
+    },
+    "I1": {
+      "name": "Serie A",
+      "crest": "https://crests.football-data.org/SA.png"
+    },
+    "D1": {
+      "name": "Bundesliga",
+      "crest": "https://crests.football-data.org/BL1.png"
+    },
+    "SP1": {
+      "name": "La Liga",
+      "crest": "https://crests.football-data.org/PD.png"
+    },
+    "F1": {
+      "name": "Ligue 1",
+      "crest": "https://crests.football-data.org/FL1.png"
+    }
+  },
+  "matches": [
+    {
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-02-20T19:45:00Z",
+      "date": "2026-02-20 19:45:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "today",
+      "home_team": "Brest",
+      "away_team": "Marseille",
+      "home_team_crest": "https://crests.football-data.org/512.png",
+      "away_team_crest": "https://crests.football-data.org/516.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.518733,
+        "prob_over": 0.481267,
+        "prob_under": 0.518733
+      }
+    },
+    {
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-02-21T14:00:00Z",
+      "date": "2026-02-21 14:00:00",
+      "status": "TIMED",
+      "matchday": 26,
+      "bucket": "upcoming",
+      "home_team": "Juventus",
+      "away_team": "Como",
+      "home_team_crest": "https://crests.football-data.org/109.png",
+      "away_team_crest": "https://crests.football-data.org/7397.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.54982,
+        "prob_over": 0.54982,
+        "prob_under": 0.45018
+      }
+    },
+    {
+      "league": "D1",
+      "competitionName": "Bundesliga",
+      "competitionCrest": "https://crests.football-data.org/BL1.png",
+      "utcDate": "2026-02-21T14:30:00Z",
+      "date": "2026-02-21 14:30:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Union Berlin",
+      "away_team": "Leverkusen",
+      "home_team_crest": "https://crests.football-data.org/28.png",
+      "away_team_crest": "https://crests.football-data.org/3.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.664903,
+        "prob_over": 0.335097,
+        "prob_under": 0.664903
+      }
+    },
+    {
+      "league": "D1",
+      "competitionName": "Bundesliga",
+      "competitionCrest": "https://crests.football-data.org/BL1.png",
+      "utcDate": "2026-02-21T14:30:00Z",
+      "date": "2026-02-21 14:30:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Bayern Munich",
+      "away_team": "Ein Frankfurt",
+      "home_team_crest": "https://crests.football-data.org/5.png",
+      "away_team_crest": "https://crests.football-data.org/19.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.807331,
+        "prob_over": 0.807331,
+        "prob_under": 0.192669
+      }
+    },
+    {
+      "league": "D1",
+      "competitionName": "Bundesliga",
+      "competitionCrest": "https://crests.football-data.org/BL1.png",
+      "utcDate": "2026-02-21T14:30:00Z",
+      "date": "2026-02-21 14:30:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Wolfsburg",
+      "away_team": "Augsburg",
+      "home_team_crest": "https://crests.football-data.org/11.png",
+      "away_team_crest": "https://crests.football-data.org/16.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.803959,
+        "prob_over": 0.803959,
+        "prob_under": 0.196041
+      }
+    },
+    {
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-02-21T15:00:00Z",
+      "date": "2026-02-21 15:00:00",
+      "status": "TIMED",
+      "matchday": 27,
+      "bucket": "upcoming",
+      "home_team": "Brentford",
+      "away_team": "Brighton",
+      "home_team_crest": "https://crests.football-data.org/402.png",
+      "away_team_crest": "https://crests.football-data.org/397.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.814026,
+        "prob_over": 0.814026,
+        "prob_under": 0.185974
+      }
+    },
+    {
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-02-21T15:15:00Z",
+      "date": "2026-02-21 15:15:00",
+      "status": "TIMED",
+      "matchday": 25,
+      "bucket": "upcoming",
+      "home_team": "Betis",
+      "away_team": "Vallecano",
+      "home_team_crest": "https://crests.football-data.org/90.png",
+      "away_team_crest": "https://crests.football-data.org/87.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.671122,
+        "prob_over": 0.328878,
+        "prob_under": 0.671122
+      }
+    },
+    {
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-02-21T16:00:00Z",
+      "date": "2026-02-21 16:00:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Lens",
+      "away_team": "Monaco",
+      "home_team_crest": "https://crests.football-data.org/546.png",
+      "away_team_crest": "https://crests.football-data.org/548.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.690201,
+        "prob_over": 0.690201,
+        "prob_under": 0.309799
+      }
+    },
+    {
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-02-21T17:00:00Z",
+      "date": "2026-02-21 17:00:00",
+      "status": "TIMED",
+      "matchday": 26,
+      "bucket": "upcoming",
+      "home_team": "Lecce",
+      "away_team": "Inter",
+      "home_team_crest": "https://crests.football-data.org/5890.png",
+      "away_team_crest": "https://crests.football-data.org/108.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.925586,
+        "prob_over": 0.925586,
+        "prob_under": 0.074414
+      }
+    },
+    {
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-02-21T17:30:00Z",
+      "date": "2026-02-21 17:30:00",
+      "status": "TIMED",
+      "matchday": 27,
+      "bucket": "upcoming",
+      "home_team": "West Ham",
+      "away_team": "Bournemouth",
+      "home_team_crest": "https://crests.football-data.org/563.png",
+      "away_team_crest": "https://crests.football-data.org/bournemouth.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.862297,
+        "prob_over": 0.862297,
+        "prob_under": 0.137703
+      }
+    },
+    {
+      "league": "D1",
+      "competitionName": "Bundesliga",
+      "competitionCrest": "https://crests.football-data.org/BL1.png",
+      "utcDate": "2026-02-21T17:30:00Z",
+      "date": "2026-02-21 17:30:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "RB Leipzig",
+      "away_team": "Dortmund",
+      "home_team_crest": "https://crests.football-data.org/721.png",
+      "away_team_crest": "https://crests.football-data.org/4.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.778926,
+        "prob_over": 0.778926,
+        "prob_under": 0.221074
+      }
+    },
+    {
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-02-21T17:30:00Z",
+      "date": "2026-02-21 17:30:00",
+      "status": "TIMED",
+      "matchday": 25,
+      "bucket": "upcoming",
+      "home_team": "Osasuna",
+      "away_team": "Real Madrid",
+      "home_team_crest": "https://crests.football-data.org/79.png",
+      "away_team_crest": "https://crests.football-data.org/86.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.944521,
+        "prob_over": 0.944521,
+        "prob_under": 0.055479
+      }
+    },
+    {
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-02-21T19:45:00Z",
+      "date": "2026-02-21 19:45:00",
+      "status": "TIMED",
+      "matchday": 26,
+      "bucket": "upcoming",
+      "home_team": "Cagliari",
+      "away_team": "Lazio",
+      "home_team_crest": "https://crests.football-data.org/104.png",
+      "away_team_crest": "https://crests.football-data.org/110.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.667339,
+        "prob_over": 0.332661,
+        "prob_under": 0.667339
+      }
+    },
+    {
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-02-21T20:00:00Z",
+      "date": "2026-02-21 20:00:00",
+      "status": "TIMED",
+      "matchday": 27,
+      "bucket": "upcoming",
+      "home_team": "Man City",
+      "away_team": "Newcastle",
+      "home_team_crest": "https://crests.football-data.org/65.png",
+      "away_team_crest": "https://crests.football-data.org/67.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.561504,
+        "prob_over": 0.438496,
+        "prob_under": 0.561504
+      }
+    },
+    {
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-02-21T20:00:00Z",
+      "date": "2026-02-21 20:00:00",
+      "status": "TIMED",
+      "matchday": 25,
+      "bucket": "upcoming",
+      "home_team": "Ath Madrid",
+      "away_team": "Espanol",
+      "home_team_crest": "https://crests.football-data.org/78.png",
+      "away_team_crest": "https://crests.football-data.org/80.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.875485,
+        "prob_over": 0.875485,
+        "prob_under": 0.124515
+      }
+    },
+    {
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-02-21T20:05:00Z",
+      "date": "2026-02-21 20:05:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Paris SG",
+      "away_team": "Metz",
+      "home_team_crest": "https://crests.football-data.org/524.png",
+      "away_team_crest": "https://crests.football-data.org/545.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.728156,
+        "prob_over": 0.728156,
+        "prob_under": 0.271844
+      }
+    },
+    {
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-02-22T11:30:00Z",
+      "date": "2026-02-22 11:30:00",
+      "status": "TIMED",
+      "matchday": 26,
+      "bucket": "upcoming",
+      "home_team": "Genoa",
+      "away_team": "Torino",
+      "home_team_crest": "https://crests.football-data.org/107.png",
+      "away_team_crest": "https://crests.football-data.org/586.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.895041,
+        "prob_over": 0.895041,
+        "prob_under": 0.104959
+      }
+    },
+    {
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-02-22T13:00:00Z",
+      "date": "2026-02-22 13:00:00",
+      "status": "TIMED",
+      "matchday": 25,
+      "bucket": "upcoming",
+      "home_team": "Getafe",
+      "away_team": "Sevilla",
+      "home_team_crest": "https://crests.football-data.org/82.png",
+      "away_team_crest": "https://crests.football-data.org/559.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.827362,
+        "prob_over": 0.827362,
+        "prob_under": 0.172638
+      }
+    },
+    {
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-02-22T14:00:00Z",
+      "date": "2026-02-22 14:00:00",
+      "status": "TIMED",
+      "matchday": 27,
+      "bucket": "upcoming",
+      "home_team": "Crystal Palace",
+      "away_team": "Wolves",
+      "home_team_crest": "https://crests.football-data.org/354.png",
+      "away_team_crest": "https://crests.football-data.org/76.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.719922,
+        "prob_over": 0.280078,
+        "prob_under": 0.719922
+      }
+    },
+    {
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-02-22T14:00:00Z",
+      "date": "2026-02-22 14:00:00",
+      "status": "TIMED",
+      "matchday": 27,
+      "bucket": "upcoming",
+      "home_team": "Nott'm Forest",
+      "away_team": "Liverpool",
+      "home_team_crest": "https://crests.football-data.org/351.png",
+      "away_team_crest": "https://crests.football-data.org/64.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.511095,
+        "prob_over": 0.511095,
+        "prob_under": 0.488905
+      }
+    },
+    {
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-02-22T14:00:00Z",
+      "date": "2026-02-22 14:00:00",
+      "status": "TIMED",
+      "matchday": 26,
+      "bucket": "upcoming",
+      "home_team": "Atalanta",
+      "away_team": "Napoli",
+      "home_team_crest": "https://crests.football-data.org/102.png",
+      "away_team_crest": "https://crests.football-data.org/113.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.71828,
+        "prob_over": 0.71828,
+        "prob_under": 0.28172
+      }
+    },
+    {
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-02-22T14:00:00Z",
+      "date": "2026-02-22 14:00:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Auxerre",
+      "away_team": "Rennes",
+      "home_team_crest": "https://crests.football-data.org/519.png",
+      "away_team_crest": "https://crests.football-data.org/529.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.550904,
+        "prob_over": 0.449096,
+        "prob_under": 0.550904
+      }
+    },
+    {
+      "league": "D1",
+      "competitionName": "Bundesliga",
+      "competitionCrest": "https://crests.football-data.org/BL1.png",
+      "utcDate": "2026-02-22T14:30:00Z",
+      "date": "2026-02-22 14:30:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Freiburg",
+      "away_team": "M'gladbach",
+      "home_team_crest": "https://crests.football-data.org/17.png",
+      "away_team_crest": "https://crests.football-data.org/18.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.604544,
+        "prob_over": 0.604544,
+        "prob_under": 0.395456
+      }
+    },
+    {
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-02-22T16:15:00Z",
+      "date": "2026-02-22 16:15:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Nantes",
+      "away_team": "Le Havre",
+      "home_team_crest": "https://crests.football-data.org/543.png",
+      "away_team_crest": "https://crests.football-data.org/533.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.55044,
+        "prob_over": 0.44956,
+        "prob_under": 0.55044
+      }
+    },
+    {
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-02-22T16:15:00Z",
+      "date": "2026-02-22 16:15:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Angers",
+      "away_team": "Lille",
+      "home_team_crest": "https://crests.football-data.org/532.png",
+      "away_team_crest": "https://crests.football-data.org/521.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.799722,
+        "prob_over": 0.799722,
+        "prob_under": 0.200278
+      }
+    },
+    {
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-02-22T16:30:00Z",
+      "date": "2026-02-22 16:30:00",
+      "status": "TIMED",
+      "matchday": 27,
+      "bucket": "upcoming",
+      "home_team": "Tottenham",
+      "away_team": "Arsenal",
+      "home_team_crest": "https://crests.football-data.org/73.png",
+      "away_team_crest": "https://crests.football-data.org/57.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.626517,
+        "prob_over": 0.626517,
+        "prob_under": 0.373483
+      }
+    },
+    {
+      "league": "D1",
+      "competitionName": "Bundesliga",
+      "competitionCrest": "https://crests.football-data.org/BL1.png",
+      "utcDate": "2026-02-22T16:30:00Z",
+      "date": "2026-02-22 16:30:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "St Pauli",
+      "away_team": "Werder Bremen",
+      "home_team_crest": "https://crests.football-data.org/20.png",
+      "away_team_crest": "https://crests.football-data.org/12.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.703724,
+        "prob_over": 0.296276,
+        "prob_under": 0.703724
+      }
+    },
+    {
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-02-22T17:00:00Z",
+      "date": "2026-02-22 17:00:00",
+      "status": "TIMED",
+      "matchday": 26,
+      "bucket": "upcoming",
+      "home_team": "Milan",
+      "away_team": "Parma",
+      "home_team_crest": "https://crests.football-data.org/98.png",
+      "away_team_crest": "https://crests.football-data.org/112.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.90792,
+        "prob_over": 0.90792,
+        "prob_under": 0.09208
+      }
+    },
+    {
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-02-22T17:30:00Z",
+      "date": "2026-02-22 17:30:00",
+      "status": "TIMED",
+      "matchday": 25,
+      "bucket": "upcoming",
+      "home_team": "Celta",
+      "away_team": "Mallorca",
+      "home_team_crest": "https://crests.football-data.org/558.png",
+      "away_team_crest": "https://crests.football-data.org/89.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.897132,
+        "prob_over": 0.102868,
+        "prob_under": 0.897132
+      }
+    },
+    {
+      "league": "D1",
+      "competitionName": "Bundesliga",
+      "competitionCrest": "https://crests.football-data.org/BL1.png",
+      "utcDate": "2026-02-22T18:30:00Z",
+      "date": "2026-02-22 18:30:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Heidenheim",
+      "away_team": "Stuttgart",
+      "home_team_crest": "https://crests.football-data.org/44.png",
+      "away_team_crest": "https://crests.football-data.org/10.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.796809,
+        "prob_over": 0.796809,
+        "prob_under": 0.203191
+      }
+    },
+    {
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-02-22T19:45:00Z",
+      "date": "2026-02-22 19:45:00",
+      "status": "TIMED",
+      "matchday": 23,
+      "bucket": "upcoming",
+      "home_team": "Strasbourg",
+      "away_team": "Lyon",
+      "home_team_crest": "https://crests.football-data.org/576.png",
+      "away_team_crest": "https://crests.football-data.org/523.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.63826,
+        "prob_over": 0.63826,
+        "prob_under": 0.36174
+      }
+    },
+    {
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-02-22T20:00:00Z",
+      "date": "2026-02-22 20:00:00",
+      "status": "TIMED",
+      "matchday": 25,
+      "bucket": "upcoming",
+      "home_team": "Villarreal",
+      "away_team": "Valencia",
+      "home_team_crest": "https://crests.football-data.org/94.png",
+      "away_team_crest": "https://crests.football-data.org/95.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.873361,
+        "prob_over": 0.873361,
+        "prob_under": 0.126639
+      }
+    },
+    {
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-02-23T19:45:00Z",
+      "date": "2026-02-23 19:45:00",
+      "status": "TIMED",
+      "matchday": 26,
+      "bucket": "upcoming",
+      "home_team": "Bologna",
+      "away_team": "Udinese",
+      "home_team_crest": "https://crests.football-data.org/103.png",
+      "away_team_crest": "https://crests.football-data.org/115.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.842935,
+        "prob_over": 0.842935,
+        "prob_under": 0.157065
+      }
+    },
+    {
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-02-23T20:00:00Z",
+      "date": "2026-02-23 20:00:00",
+      "status": "TIMED",
+      "matchday": 27,
+      "bucket": "upcoming",
+      "home_team": "Everton",
+      "away_team": "Man United",
+      "home_team_crest": "https://crests.football-data.org/62.png",
+      "away_team_crest": "https://crests.football-data.org/66.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.663866,
+        "prob_over": 0.336134,
+        "prob_under": 0.663866
+      }
+    },
+    {
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-02-23T20:00:00Z",
+      "date": "2026-02-23 20:00:00",
+      "status": "TIMED",
+      "matchday": 25,
+      "bucket": "upcoming",
+      "home_team": "Alaves",
+      "away_team": "Girona",
+      "home_team_crest": "https://crests.football-data.org/263.png",
+      "away_team_crest": "https://crests.football-data.org/298.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.916221,
+        "prob_over": 0.083779,
+        "prob_under": 0.916221
+      }
+    },
+    {
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-02-27T19:45:00Z",
+      "date": "2026-02-27 19:45:00",
+      "status": "TIMED",
+      "matchday": 27,
+      "bucket": "upcoming",
+      "home_team": "Parma",
+      "away_team": "Cagliari",
+      "home_team_crest": "https://crests.football-data.org/112.png",
+      "away_team_crest": "https://crests.football-data.org/104.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.700033,
+        "prob_over": 0.299967,
+        "prob_under": 0.700033
+      }
+    },
+    {
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-02-27T19:45:00Z",
+      "date": "2026-02-27 19:45:00",
+      "status": "TIMED",
+      "matchday": 24,
+      "bucket": "upcoming",
+      "home_team": "Strasbourg",
+      "away_team": "Lens",
+      "home_team_crest": "https://crests.football-data.org/576.png",
+      "away_team_crest": "https://crests.football-data.org/546.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.589129,
+        "prob_over": 0.410871,
+        "prob_under": 0.589129
+      }
+    },
+    {
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-02-27T20:00:00Z",
+      "date": "2026-02-27 20:00:00",
+      "status": "TIMED",
+      "matchday": 28,
+      "bucket": "upcoming",
+      "home_team": "Wolves",
+      "away_team": "Aston Villa",
+      "home_team_crest": "https://crests.football-data.org/76.png",
+      "away_team_crest": "https://crests.football-data.org/58.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.658074,
+        "prob_over": 0.341926,
+        "prob_under": 0.658074
+      }
+    }
+  ],
+  "buckets": {
+    "yesterday": [],
+    "today": [
+      {
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-02-20T19:45:00Z",
+        "date": "2026-02-20 19:45:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "today",
+        "home_team": "Brest",
+        "away_team": "Marseille",
+        "home_team_crest": "https://crests.football-data.org/512.png",
+        "away_team_crest": "https://crests.football-data.org/516.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.518733,
+          "prob_over": 0.481267,
+          "prob_under": 0.518733
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-02-21T14:00:00Z",
+        "date": "2026-02-21 14:00:00",
+        "status": "TIMED",
+        "matchday": 26,
+        "bucket": "upcoming",
+        "home_team": "Juventus",
+        "away_team": "Como",
+        "home_team_crest": "https://crests.football-data.org/109.png",
+        "away_team_crest": "https://crests.football-data.org/7397.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.54982,
+          "prob_over": 0.54982,
+          "prob_under": 0.45018
+        }
+      },
+      {
+        "league": "D1",
+        "competitionName": "Bundesliga",
+        "competitionCrest": "https://crests.football-data.org/BL1.png",
+        "utcDate": "2026-02-21T14:30:00Z",
+        "date": "2026-02-21 14:30:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Union Berlin",
+        "away_team": "Leverkusen",
+        "home_team_crest": "https://crests.football-data.org/28.png",
+        "away_team_crest": "https://crests.football-data.org/3.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.664903,
+          "prob_over": 0.335097,
+          "prob_under": 0.664903
+        }
+      },
+      {
+        "league": "D1",
+        "competitionName": "Bundesliga",
+        "competitionCrest": "https://crests.football-data.org/BL1.png",
+        "utcDate": "2026-02-21T14:30:00Z",
+        "date": "2026-02-21 14:30:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Bayern Munich",
+        "away_team": "Ein Frankfurt",
+        "home_team_crest": "https://crests.football-data.org/5.png",
+        "away_team_crest": "https://crests.football-data.org/19.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.807331,
+          "prob_over": 0.807331,
+          "prob_under": 0.192669
+        }
+      },
+      {
+        "league": "D1",
+        "competitionName": "Bundesliga",
+        "competitionCrest": "https://crests.football-data.org/BL1.png",
+        "utcDate": "2026-02-21T14:30:00Z",
+        "date": "2026-02-21 14:30:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Wolfsburg",
+        "away_team": "Augsburg",
+        "home_team_crest": "https://crests.football-data.org/11.png",
+        "away_team_crest": "https://crests.football-data.org/16.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.803959,
+          "prob_over": 0.803959,
+          "prob_under": 0.196041
+        }
+      },
+      {
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-02-21T15:00:00Z",
+        "date": "2026-02-21 15:00:00",
+        "status": "TIMED",
+        "matchday": 27,
+        "bucket": "upcoming",
+        "home_team": "Brentford",
+        "away_team": "Brighton",
+        "home_team_crest": "https://crests.football-data.org/402.png",
+        "away_team_crest": "https://crests.football-data.org/397.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.814026,
+          "prob_over": 0.814026,
+          "prob_under": 0.185974
+        }
+      },
+      {
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-02-21T15:15:00Z",
+        "date": "2026-02-21 15:15:00",
+        "status": "TIMED",
+        "matchday": 25,
+        "bucket": "upcoming",
+        "home_team": "Betis",
+        "away_team": "Vallecano",
+        "home_team_crest": "https://crests.football-data.org/90.png",
+        "away_team_crest": "https://crests.football-data.org/87.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.671122,
+          "prob_over": 0.328878,
+          "prob_under": 0.671122
+        }
+      },
+      {
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-02-21T16:00:00Z",
+        "date": "2026-02-21 16:00:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Lens",
+        "away_team": "Monaco",
+        "home_team_crest": "https://crests.football-data.org/546.png",
+        "away_team_crest": "https://crests.football-data.org/548.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.690201,
+          "prob_over": 0.690201,
+          "prob_under": 0.309799
+        }
+      },
+      {
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-02-21T17:00:00Z",
+        "date": "2026-02-21 17:00:00",
+        "status": "TIMED",
+        "matchday": 26,
+        "bucket": "upcoming",
+        "home_team": "Lecce",
+        "away_team": "Inter",
+        "home_team_crest": "https://crests.football-data.org/5890.png",
+        "away_team_crest": "https://crests.football-data.org/108.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.925586,
+          "prob_over": 0.925586,
+          "prob_under": 0.074414
+        }
+      },
+      {
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-02-21T17:30:00Z",
+        "date": "2026-02-21 17:30:00",
+        "status": "TIMED",
+        "matchday": 27,
+        "bucket": "upcoming",
+        "home_team": "West Ham",
+        "away_team": "Bournemouth",
+        "home_team_crest": "https://crests.football-data.org/563.png",
+        "away_team_crest": "https://crests.football-data.org/bournemouth.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.862297,
+          "prob_over": 0.862297,
+          "prob_under": 0.137703
+        }
+      },
+      {
+        "league": "D1",
+        "competitionName": "Bundesliga",
+        "competitionCrest": "https://crests.football-data.org/BL1.png",
+        "utcDate": "2026-02-21T17:30:00Z",
+        "date": "2026-02-21 17:30:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "RB Leipzig",
+        "away_team": "Dortmund",
+        "home_team_crest": "https://crests.football-data.org/721.png",
+        "away_team_crest": "https://crests.football-data.org/4.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.778926,
+          "prob_over": 0.778926,
+          "prob_under": 0.221074
+        }
+      },
+      {
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-02-21T17:30:00Z",
+        "date": "2026-02-21 17:30:00",
+        "status": "TIMED",
+        "matchday": 25,
+        "bucket": "upcoming",
+        "home_team": "Osasuna",
+        "away_team": "Real Madrid",
+        "home_team_crest": "https://crests.football-data.org/79.png",
+        "away_team_crest": "https://crests.football-data.org/86.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.944521,
+          "prob_over": 0.944521,
+          "prob_under": 0.055479
+        }
+      },
+      {
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-02-21T19:45:00Z",
+        "date": "2026-02-21 19:45:00",
+        "status": "TIMED",
+        "matchday": 26,
+        "bucket": "upcoming",
+        "home_team": "Cagliari",
+        "away_team": "Lazio",
+        "home_team_crest": "https://crests.football-data.org/104.png",
+        "away_team_crest": "https://crests.football-data.org/110.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.667339,
+          "prob_over": 0.332661,
+          "prob_under": 0.667339
+        }
+      },
+      {
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-02-21T20:00:00Z",
+        "date": "2026-02-21 20:00:00",
+        "status": "TIMED",
+        "matchday": 27,
+        "bucket": "upcoming",
+        "home_team": "Man City",
+        "away_team": "Newcastle",
+        "home_team_crest": "https://crests.football-data.org/65.png",
+        "away_team_crest": "https://crests.football-data.org/67.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.561504,
+          "prob_over": 0.438496,
+          "prob_under": 0.561504
+        }
+      },
+      {
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-02-21T20:00:00Z",
+        "date": "2026-02-21 20:00:00",
+        "status": "TIMED",
+        "matchday": 25,
+        "bucket": "upcoming",
+        "home_team": "Ath Madrid",
+        "away_team": "Espanol",
+        "home_team_crest": "https://crests.football-data.org/78.png",
+        "away_team_crest": "https://crests.football-data.org/80.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.875485,
+          "prob_over": 0.875485,
+          "prob_under": 0.124515
+        }
+      },
+      {
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-02-21T20:05:00Z",
+        "date": "2026-02-21 20:05:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Paris SG",
+        "away_team": "Metz",
+        "home_team_crest": "https://crests.football-data.org/524.png",
+        "away_team_crest": "https://crests.football-data.org/545.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.728156,
+          "prob_over": 0.728156,
+          "prob_under": 0.271844
+        }
+      },
+      {
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-02-22T11:30:00Z",
+        "date": "2026-02-22 11:30:00",
+        "status": "TIMED",
+        "matchday": 26,
+        "bucket": "upcoming",
+        "home_team": "Genoa",
+        "away_team": "Torino",
+        "home_team_crest": "https://crests.football-data.org/107.png",
+        "away_team_crest": "https://crests.football-data.org/586.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.895041,
+          "prob_over": 0.895041,
+          "prob_under": 0.104959
+        }
+      },
+      {
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-02-22T13:00:00Z",
+        "date": "2026-02-22 13:00:00",
+        "status": "TIMED",
+        "matchday": 25,
+        "bucket": "upcoming",
+        "home_team": "Getafe",
+        "away_team": "Sevilla",
+        "home_team_crest": "https://crests.football-data.org/82.png",
+        "away_team_crest": "https://crests.football-data.org/559.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.827362,
+          "prob_over": 0.827362,
+          "prob_under": 0.172638
+        }
+      },
+      {
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-02-22T14:00:00Z",
+        "date": "2026-02-22 14:00:00",
+        "status": "TIMED",
+        "matchday": 27,
+        "bucket": "upcoming",
+        "home_team": "Crystal Palace",
+        "away_team": "Wolves",
+        "home_team_crest": "https://crests.football-data.org/354.png",
+        "away_team_crest": "https://crests.football-data.org/76.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.719922,
+          "prob_over": 0.280078,
+          "prob_under": 0.719922
+        }
+      },
+      {
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-02-22T14:00:00Z",
+        "date": "2026-02-22 14:00:00",
+        "status": "TIMED",
+        "matchday": 27,
+        "bucket": "upcoming",
+        "home_team": "Nott'm Forest",
+        "away_team": "Liverpool",
+        "home_team_crest": "https://crests.football-data.org/351.png",
+        "away_team_crest": "https://crests.football-data.org/64.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.511095,
+          "prob_over": 0.511095,
+          "prob_under": 0.488905
+        }
+      },
+      {
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-02-22T14:00:00Z",
+        "date": "2026-02-22 14:00:00",
+        "status": "TIMED",
+        "matchday": 26,
+        "bucket": "upcoming",
+        "home_team": "Atalanta",
+        "away_team": "Napoli",
+        "home_team_crest": "https://crests.football-data.org/102.png",
+        "away_team_crest": "https://crests.football-data.org/113.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.71828,
+          "prob_over": 0.71828,
+          "prob_under": 0.28172
+        }
+      },
+      {
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-02-22T14:00:00Z",
+        "date": "2026-02-22 14:00:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Auxerre",
+        "away_team": "Rennes",
+        "home_team_crest": "https://crests.football-data.org/519.png",
+        "away_team_crest": "https://crests.football-data.org/529.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.550904,
+          "prob_over": 0.449096,
+          "prob_under": 0.550904
+        }
+      },
+      {
+        "league": "D1",
+        "competitionName": "Bundesliga",
+        "competitionCrest": "https://crests.football-data.org/BL1.png",
+        "utcDate": "2026-02-22T14:30:00Z",
+        "date": "2026-02-22 14:30:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Freiburg",
+        "away_team": "M'gladbach",
+        "home_team_crest": "https://crests.football-data.org/17.png",
+        "away_team_crest": "https://crests.football-data.org/18.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.604544,
+          "prob_over": 0.604544,
+          "prob_under": 0.395456
+        }
+      },
+      {
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-02-22T16:15:00Z",
+        "date": "2026-02-22 16:15:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Nantes",
+        "away_team": "Le Havre",
+        "home_team_crest": "https://crests.football-data.org/543.png",
+        "away_team_crest": "https://crests.football-data.org/533.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.55044,
+          "prob_over": 0.44956,
+          "prob_under": 0.55044
+        }
+      },
+      {
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-02-22T16:15:00Z",
+        "date": "2026-02-22 16:15:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Angers",
+        "away_team": "Lille",
+        "home_team_crest": "https://crests.football-data.org/532.png",
+        "away_team_crest": "https://crests.football-data.org/521.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.799722,
+          "prob_over": 0.799722,
+          "prob_under": 0.200278
+        }
+      },
+      {
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-02-22T16:30:00Z",
+        "date": "2026-02-22 16:30:00",
+        "status": "TIMED",
+        "matchday": 27,
+        "bucket": "upcoming",
+        "home_team": "Tottenham",
+        "away_team": "Arsenal",
+        "home_team_crest": "https://crests.football-data.org/73.png",
+        "away_team_crest": "https://crests.football-data.org/57.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.626517,
+          "prob_over": 0.626517,
+          "prob_under": 0.373483
+        }
+      },
+      {
+        "league": "D1",
+        "competitionName": "Bundesliga",
+        "competitionCrest": "https://crests.football-data.org/BL1.png",
+        "utcDate": "2026-02-22T16:30:00Z",
+        "date": "2026-02-22 16:30:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "St Pauli",
+        "away_team": "Werder Bremen",
+        "home_team_crest": "https://crests.football-data.org/20.png",
+        "away_team_crest": "https://crests.football-data.org/12.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.703724,
+          "prob_over": 0.296276,
+          "prob_under": 0.703724
+        }
+      },
+      {
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-02-22T17:00:00Z",
+        "date": "2026-02-22 17:00:00",
+        "status": "TIMED",
+        "matchday": 26,
+        "bucket": "upcoming",
+        "home_team": "Milan",
+        "away_team": "Parma",
+        "home_team_crest": "https://crests.football-data.org/98.png",
+        "away_team_crest": "https://crests.football-data.org/112.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.90792,
+          "prob_over": 0.90792,
+          "prob_under": 0.09208
+        }
+      },
+      {
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-02-22T17:30:00Z",
+        "date": "2026-02-22 17:30:00",
+        "status": "TIMED",
+        "matchday": 25,
+        "bucket": "upcoming",
+        "home_team": "Celta",
+        "away_team": "Mallorca",
+        "home_team_crest": "https://crests.football-data.org/558.png",
+        "away_team_crest": "https://crests.football-data.org/89.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.897132,
+          "prob_over": 0.102868,
+          "prob_under": 0.897132
+        }
+      },
+      {
+        "league": "D1",
+        "competitionName": "Bundesliga",
+        "competitionCrest": "https://crests.football-data.org/BL1.png",
+        "utcDate": "2026-02-22T18:30:00Z",
+        "date": "2026-02-22 18:30:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Heidenheim",
+        "away_team": "Stuttgart",
+        "home_team_crest": "https://crests.football-data.org/44.png",
+        "away_team_crest": "https://crests.football-data.org/10.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.796809,
+          "prob_over": 0.796809,
+          "prob_under": 0.203191
+        }
+      },
+      {
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-02-22T19:45:00Z",
+        "date": "2026-02-22 19:45:00",
+        "status": "TIMED",
+        "matchday": 23,
+        "bucket": "upcoming",
+        "home_team": "Strasbourg",
+        "away_team": "Lyon",
+        "home_team_crest": "https://crests.football-data.org/576.png",
+        "away_team_crest": "https://crests.football-data.org/523.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.63826,
+          "prob_over": 0.63826,
+          "prob_under": 0.36174
+        }
+      },
+      {
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-02-22T20:00:00Z",
+        "date": "2026-02-22 20:00:00",
+        "status": "TIMED",
+        "matchday": 25,
+        "bucket": "upcoming",
+        "home_team": "Villarreal",
+        "away_team": "Valencia",
+        "home_team_crest": "https://crests.football-data.org/94.png",
+        "away_team_crest": "https://crests.football-data.org/95.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.873361,
+          "prob_over": 0.873361,
+          "prob_under": 0.126639
+        }
+      },
+      {
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-02-23T19:45:00Z",
+        "date": "2026-02-23 19:45:00",
+        "status": "TIMED",
+        "matchday": 26,
+        "bucket": "upcoming",
+        "home_team": "Bologna",
+        "away_team": "Udinese",
+        "home_team_crest": "https://crests.football-data.org/103.png",
+        "away_team_crest": "https://crests.football-data.org/115.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.842935,
+          "prob_over": 0.842935,
+          "prob_under": 0.157065
+        }
+      },
+      {
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-02-23T20:00:00Z",
+        "date": "2026-02-23 20:00:00",
+        "status": "TIMED",
+        "matchday": 27,
+        "bucket": "upcoming",
+        "home_team": "Everton",
+        "away_team": "Man United",
+        "home_team_crest": "https://crests.football-data.org/62.png",
+        "away_team_crest": "https://crests.football-data.org/66.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.663866,
+          "prob_over": 0.336134,
+          "prob_under": 0.663866
+        }
+      },
+      {
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-02-23T20:00:00Z",
+        "date": "2026-02-23 20:00:00",
+        "status": "TIMED",
+        "matchday": 25,
+        "bucket": "upcoming",
+        "home_team": "Alaves",
+        "away_team": "Girona",
+        "home_team_crest": "https://crests.football-data.org/263.png",
+        "away_team_crest": "https://crests.football-data.org/298.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.916221,
+          "prob_over": 0.083779,
+          "prob_under": 0.916221
+        }
+      },
+      {
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-02-27T19:45:00Z",
+        "date": "2026-02-27 19:45:00",
+        "status": "TIMED",
+        "matchday": 27,
+        "bucket": "upcoming",
+        "home_team": "Parma",
+        "away_team": "Cagliari",
+        "home_team_crest": "https://crests.football-data.org/112.png",
+        "away_team_crest": "https://crests.football-data.org/104.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.700033,
+          "prob_over": 0.299967,
+          "prob_under": 0.700033
+        }
+      },
+      {
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-02-27T19:45:00Z",
+        "date": "2026-02-27 19:45:00",
+        "status": "TIMED",
+        "matchday": 24,
+        "bucket": "upcoming",
+        "home_team": "Strasbourg",
+        "away_team": "Lens",
+        "home_team_crest": "https://crests.football-data.org/576.png",
+        "away_team_crest": "https://crests.football-data.org/546.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.589129,
+          "prob_over": 0.410871,
+          "prob_under": 0.589129
+        }
+      },
+      {
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-02-27T20:00:00Z",
+        "date": "2026-02-27 20:00:00",
+        "status": "TIMED",
+        "matchday": 28,
+        "bucket": "upcoming",
+        "home_team": "Wolves",
+        "away_team": "Aston Villa",
+        "home_team_crest": "https://crests.football-data.org/76.png",
+        "away_team_crest": "https://crests.football-data.org/58.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.658074,
+          "prob_over": 0.341926,
+          "prob_under": 0.658074
+        }
+      }
+    ]
+  }
+}

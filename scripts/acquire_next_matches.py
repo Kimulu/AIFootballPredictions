@@ -19,15 +19,17 @@ update the team names in the next matches data using the mapping file, and save 
 """
 
 from dotenv import load_dotenv
+from pathlib import Path
 import requests
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import json
 import argparse
 
-# Load environment variables from a .env file located in the home directory
-load_dotenv(dotenv_path=os.path.expanduser("~/.env"))
+
+ROOT = Path(__file__).resolve().parents[1]   # project root folder
+load_dotenv(ROOT / ".env")
 
 # Parameters
 API_KEY = os.getenv("API_FOOTBALL_DATA")
@@ -177,79 +179,66 @@ TEAMS_NAMES_MAPPING = {
     'FC Metz': 'Metz',
 }
 
-def get_next_matches(headers: dict, base_url: str) -> dict:
+def get_next_matches(headers: dict, base_url: str, days_back: int = 1, days_forward: int = 7) -> dict:
     """
-    Get the next matches for each major league.
-
-    Parameters:
-    headers (dict): Headers to include in the API request, including the API key.
-    base_url (str): Base URL of the football-data.org API.
-
-    Returns:
-    dict: Dictionary containing the next matches for each competition.
+    Fetch matches in a date window (yesterday..next X days) for each competition.
+    Avoids relying on "currentMatchday" (which can skip ahead weeks).
     """
-    # get the current date, it will be useful to filter the matches
-    # acquiring only the next true marches without incorrect data
-    current_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    # football-data.org expects YYYY-MM-DD for dateFrom/dateTo
+    date_from = (datetime.utcnow() - timedelta(days=days_back)).strftime('%Y-%m-%d')
+    date_to = (datetime.utcnow() + timedelta(days=days_forward)).strftime('%Y-%m-%d')
 
-    # Check if the API key is provided
+    # Check API key
     for var in env_vars_name:
         if os.getenv(var) is None:
             raise ValueError(f"Environment variable {var} is not set. Please see the README for more information.")
-    
-    try:
-        for competition, competition_info in COMPETITIONS.items():
 
-            url = f'{base_url}/competitions/{competition_info["id"]}/matches'
-            response = requests.get(url, headers=headers)
-            
-            # check if the request was successful
-            if response.status_code != 200:
-                raise Exception(f"Request failed with status code {response.status_code}: {response.text}")
-            # else if the request was successful
-            else:
-                print(f"Request successful for {competition} with status code {response.status_code}")
-                data = response.json()
+    for competition, competition_info in COMPETITIONS.items():
+        # Clear old matches in case script is run multiple times in same session
+        competition_info["next_matches"] = []
 
-                current_matchday = data['matches'][0]['season']['currentMatchday']  # int
-                total_number_of_matches = len(data['matches'])  # int
-                # Get the last match day to avoid out of range error
-                last_match_day = data['matches'][-1]['matchday']
+        url = (
+            f"{base_url}/competitions/{competition_info['id']}/matches"
+            f"?dateFrom={date_from}&dateTo={date_to}"
+        )
 
-                # TODO A better management of the matchday is needed
-                next_matchday = current_matchday if current_matchday < last_match_day else last_match_day
+        response = requests.get(url, headers=headers)
 
-                print(f'{competition}: Current Matchday {current_matchday}, Total Matches {total_number_of_matches}')  
+        if response.status_code != 200:
+            raise Exception(f"Request failed with status code {response.status_code}: {response.text}")
 
-                for match in data['matches']:
-                    if match['matchday'] != next_matchday:
-                        continue
+        print(f"Request successful for {competition} with status code {response.status_code}")
+        data = response.json()
 
-                    # Get the match date, home team, and away team
-                    match_date = datetime.strptime(match['utcDate'], '%Y-%m-%dT%H:%M:%SZ')
-                    formatted_date = match_date.strftime('%Y-%m-%d %H:%M:%S')
+        matches = data.get("matches", [])
+        print(f"{competition}: Matches returned in window {date_from}..{date_to}: {len(matches)}")
 
-                    if match_date < datetime.strptime(current_date, '%Y-%m-%d %H:%M:%S'):
-                        continue
+        for match in matches:
+            # Keep only scheduled + finished if you want yesterday/today included
+            # statuses: SCHEDULED, TIMED, IN_PLAY, PAUSED, FINISHED, POSTPONED, ...
+            status = match.get("status")
+            if status not in ("SCHEDULED", "TIMED", "IN_PLAY", "PAUSED", "FINISHED"):
+                continue
 
-                    home_team = match['homeTeam']['name']
-                    away_team = match['awayTeam']['name']
+            match_date = datetime.strptime(match['utcDate'], '%Y-%m-%dT%H:%M:%SZ')
+            formatted_date = match_date.strftime('%Y-%m-%d %H:%M:%S')
 
-                    print(f'{formatted_date} - {home_team} vs. {away_team}')
+            home_team = match['homeTeam']['name']
+            away_team = match['awayTeam']['name']
 
-                    # Get the crest for the home team and away team
-                    home_team_crest_url = match['homeTeam']['crest']
-                    away_team_crest_url = match['awayTeam']['crest']
+            home_team_crest_url = match['homeTeam'].get('crest')
+            away_team_crest_url = match['awayTeam'].get('crest')
 
-                    COMPETITIONS[competition]["next_matches"].append({
-                        'date': formatted_date,
-                        'home_team': home_team,
-                        'away_team': away_team,
-                        'home_team_crest': home_team_crest_url,
-                        'away_team_crest': away_team_crest_url
-                    }) 
-    except Exception as e:
-        raise Exception(f"An error occurred: {e}")
+            COMPETITIONS[competition]["next_matches"].append({
+                'utcDate': match['utcDate'],           # keep ISO for frontend
+                'date': formatted_date,                # keep readable too
+                'status': status,
+                'matchday': match.get('matchday'),
+                'home_team': home_team,
+                'away_team': away_team,
+                'home_team_crest': home_team_crest_url,
+                'away_team_crest': away_team_crest_url
+            })
 
 def read_unique_team_names(directory_path: str, column_name: str) -> list:
     """
@@ -313,7 +302,7 @@ def save_to_json(data: dict, filename: str):
     Returns:
     None
     """
-    with open(filename, 'w', encoding='utf-16') as json_file:
+    with open(filename, 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, indent=4)
 
 def parse_arguments():
@@ -348,7 +337,7 @@ if __name__ == "__main__":
     args = parse_arguments()
 
     # Step 1: Fetch the next matches data
-    get_next_matches(HEADERS, BASE_URL)
+    get_next_matches(HEADERS, BASE_URL, days_back=1, days_forward=7)
 
     # Step 2: Replace team names in the next matches using the mapping
     next_matches_fd_couk_format = replace_team_names(COMPETITIONS, TEAMS_NAMES_MAPPING)

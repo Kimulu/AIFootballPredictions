@@ -21,12 +21,14 @@ Required Libraries:
 - json
 """
 
+from unittest import result
+
 import pandas as pd
 import os
 import json
 import pickle
 import numpy as np
-from datetime import datetime
+from datetime import datetime, timedelta
 import argparse
 
 # Define global constants
@@ -124,73 +126,98 @@ def prepare_row_to_predict(home_team_df: pd.DataFrame, away_team_df: pd.DataFram
 
     return row_to_predict
 
+def bucket_match(utc_iso: str) -> str:
+    match_dt = datetime.strptime(utc_iso, '%Y-%m-%dT%H:%M:%SZ')
+    today = datetime.utcnow().date()
+    mdate = match_dt.date()
 
-def make_predictions(league: str, league_model, league_data: pd.DataFrame, competitions: dict) -> str:
-    """Makes predictions for a specific league and formats them into a Telegram message.
-    
-    Args:
-        league (str): The league identifier.
-        league_model: The machine learning model for the league.
-        league_data (pd.DataFrame): DataFrame containing the league data.
-        competitions (dict): Dictionary containing competition details and upcoming matches.
-    
-    Returns:
-        str: A formatted string containing the predictions for the league.
+    if mdate == (today - timedelta(days=1)):
+        return "yesterday"
+    if mdate == today:
+        return "today"
+    return "upcoming"
+
+
+def make_predictions_json(league: str, league_model, league_data: pd.DataFrame, competitions: dict) -> list:
     """
-    league_section = ""
-    for competition_league, competitions_info in competitions.items():
-        if competition_league == league:
-            league_section = f"**{competitions_info['name']}**:\n"
-            for match in competitions_info["next_matches"]:
-                home_team = match['home_team']
-                away_team = match['away_team']
+    Returns a list of match objects with predictions for a given league.
+    """
+    out = []
 
-                if home_team not in league_data['HomeTeam'].values or away_team not in league_data['AwayTeam'].values:
-                    continue
+    league_info = competitions.get(league)
+    if not league_info:
+        return out
 
-                home_team_df = league_data[league_data['HomeTeam'] == home_team]
-                away_team_df = league_data[league_data['AwayTeam'] == away_team]
+    for match in league_info["next_matches"]:
+        home_team = match['home_team']
+        away_team = match['away_team']
 
-                numeric_columns = league_data.select_dtypes(include=['number']).columns
-                if 'Over2.5' in numeric_columns:
-                    numeric_columns = numeric_columns.drop('Over2.5')
+        # must exist in historical dataset
+        if home_team not in league_data['HomeTeam'].values or away_team not in league_data['AwayTeam'].values:
+            continue
 
-                row_to_predict = prepare_row_to_predict(home_team_df, away_team_df, numeric_columns)
-                X_test = row_to_predict.values
-                prediction = league_model.predict(X_test)
-                predicted_probability = league_model.predict_proba(X_test)[0]
+        home_team_df = league_data[league_data['HomeTeam'] == home_team]
+        away_team_df = league_data[league_data['AwayTeam'] == away_team]
 
-                if prediction == 1:
-                    result = f"Over 2.5 Goals! 🔥 ({round(predicted_probability[1] * 100, 2)}% chance)"
-                else:
-                    result = f"Under 2.5 Goals ({round(predicted_probability[0] * 100, 2)}% chance)"
+        numeric_columns = league_data.select_dtypes(include=['number']).columns
+        if 'Over2.5' in numeric_columns:
+            numeric_columns = numeric_columns.drop('Over2.5')
 
-                league_section += f"- ⚽ **{home_team}** 🆚 **{away_team}**: {result}\n"
+        row_to_predict = prepare_row_to_predict(home_team_df, away_team_df, numeric_columns)
+        X_test = row_to_predict.values
 
-    return league_section
+        pred = int(league_model.predict(X_test)[0])
+        proba = league_model.predict_proba(X_test)[0]
+        prob_under = float(proba[0])
+        prob_over = float(proba[1])
 
+        pick = "OVER" if pred == 1 else "UNDER"
+        confidence = prob_over if pred == 1 else prob_under
+
+        out.append({
+            "league": league,
+            "competitionName": league_info["name"],
+            "competitionCrest": league_info["crest"],
+            "utcDate": match.get("utcDate"),
+            "date": match.get("date"),
+            "status": match.get("status"),
+            "matchday": match.get("matchday"),
+            "bucket": bucket_match(match["utcDate"]) if match.get("utcDate") else "upcoming",
+            "home_team": home_team,
+            "away_team": away_team,
+            "home_team_crest": match.get("home_team_crest"),
+            "away_team_crest": match.get("away_team_crest"),
+            "prediction": {
+                "market": "over_2_5_goals",
+                "pick": pick,
+                "confidence": round(confidence, 6),
+                "prob_over": round(prob_over, 6),
+                "prob_under": round(prob_under, 6),
+            }
+        })
+
+    return out
 
 def main(input_leagues_models_dir: str, input_data_predict_dir: str, final_predictions_out_file: str, next_matches: str):
-    """Main function that handles the entire prediction process.
-    
-    Args:
-        input_leagues_models_dir (str): Directory containing the model files.
-        input_data_predict_dir (str): Directory containing the processed data files.
-        final_predictions_out_file (str): Path where the output Telegram message will be saved.
-        next_matches (str): Path to the JSON file with upcoming matches information.
-    """
     try:
         print("Loading JSON file with upcoming matches...\n")
-        with open(next_matches, 'r', encoding='utf-16') as json_file:
+        # Use utf-8 (recommended) after you change acquire_next_matches to save utf-8
+        with open(next_matches, 'r', encoding='utf-8') as json_file:
             competitions = json.load(json_file)
     except Exception as e:
         raise Exception(f"Error loading JSON file: {e}")
 
-    predictions_message = f"🎯 **AI Football Predictions: Will There Be Over 2.5 Goals?** 🎯\n\nCheck out the latest predictions for the upcoming football matches! We've analyzed the data and here are our thoughts:\n PREDICTIONS DONE: {datetime.now().strftime('%Y-%m-%d')} \n\n"
+    result = {
+        "generatedAt": datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+        "market": "over_2_5_goals",
+        "competitions": {},
+        "matches": []
+    }
 
     for league in VALID_LEAGUES:
         print(f"----------------------------------")
         print(f"\nMaking predictions for {league}...\n")
+
         model_path = os.path.join(input_leagues_models_dir, f"{league}_voting_classifier.pkl")
         data_path = os.path.join(input_data_predict_dir, f"{league}_merged_preprocessed.csv")
 
@@ -200,15 +227,32 @@ def main(input_leagues_models_dir: str, input_data_predict_dir: str, final_predi
 
         league_model = load_model(model_path)
         league_data = load_league_data(data_path)
-        print(f"Loaded model and data for {league}.")
-        print(f"Predicting matches for {league}...")
-        league_section = make_predictions(league, league_model, league_data, competitions)
-        print(f"Predictions made for {league}.")
-        predictions_message += league_section + "\n"
 
-    with open(final_predictions_out_file, 'w', encoding='utf-8') as file:
-        file.write(predictions_message)
-        print(f"\n Predictions saved to {final_predictions_out_file}.")
+        league_matches = make_predictions_json(league, league_model, league_data, competitions)
+
+        # store competition meta
+        if league in competitions:
+            result["competitions"][league] = {
+                "name": competitions[league]["name"],
+                "crest": competitions[league]["crest"]
+            }
+
+        result["matches"].extend(league_matches)
+
+    # sort by utcDate
+    result["matches"].sort(key=lambda m: m.get("utcDate") or "")
+
+    # buckets for frontend
+    result["buckets"] = {
+        "yesterday": [m for m in result["matches"] if m["bucket"] == "yesterday"],
+        "today": [m for m in result["matches"] if m["bucket"] == "today"],
+        "upcoming": [m for m in result["matches"] if m["bucket"] == "upcoming"],
+    }
+
+    with open(final_predictions_out_file, 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, indent=2)
+
+    print(f"\nPredictions JSON saved to {final_predictions_out_file}.")
 
 
 if __name__ == "__main__":
