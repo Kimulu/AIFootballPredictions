@@ -230,6 +230,7 @@ def get_next_matches(headers: dict, base_url: str, days_back: int = 1, days_forw
             away_team_crest_url = match['awayTeam'].get('crest')
 
             COMPETITIONS[competition]["next_matches"].append({
+                'matchId': match.get("id"),
                 'utcDate': match['utcDate'],           # keep ISO for frontend
                 'date': formatted_date,                # keep readable too
                 'status': status,

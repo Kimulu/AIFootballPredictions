@@ -10,7 +10,7 @@ How to run:
 
 Example usage, it is suggested to run the script in the root directory:
 
-    python scripts/make_predictions.py --input_leagues_models_dir models --input_data_predict_dir data/processed --final_predictions_out_file data/final_predictions.txt --next_matches data/next_matches.json
+    python scripts/make_predictions.py --input_leagues_models_dir models --input_data_predict_dir data/processed --final_predictions_out_file data/final_predictions.json --next_matches data/next_matches.json
 
 Required Libraries:
 - pandas
@@ -175,6 +175,7 @@ def make_predictions_json(league: str, league_model, league_data: pd.DataFrame, 
         confidence = prob_over if pred == 1 else prob_under
 
         out.append({
+            "matchId": match.get("matchId"),
             "league": league,
             "competitionName": league_info["name"],
             "competitionCrest": league_info["crest"],

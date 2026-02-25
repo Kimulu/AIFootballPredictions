@@ -1,0 +1,55 @@
+name: Generate AI Predictions
+
+on:
+  workflow_dispatch:
+  schedule:
+    # every 12 hours (change if you want)
+    - cron: "0 */48 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    env:
+      API_FOOTBALL_DATA: ${{ secrets.API_FOOTBALL_DATA }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install python-dotenv requests
+
+      - name: Generate next matches JSON
+        run: |
+          python scripts/acquire_next_matches.py \
+            --get_teams_names_dir data/processed \
+            --next_matches_output_file data/next_matches.json
+
+      - name: Generate predictions JSON
+        run: |
+          mkdir -p public
+          python scripts/make_predictions.py \
+            --input_leagues_models_dir models \
+            --input_data_predict_dir data/processed \
+            --final_predictions_out_file public/predictions.json \
+            --next_matches data/next_matches.json
+
+      - name: Commit predictions.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/predictions.json data/next_matches.json
+          git commit -m "Update predictions.json" || echo "No changes to commit"
+          git push
