@@ -1,0 +1,653 @@
+{
+    "E0": {
+        "id": 2021,
+        "crest": "https://crests.football-data.org/PL.png",
+        "name": "Premier League",
+        "next_matches": [
+            {
+                "matchId": 538050,
+                "utcDate": "2026-02-23T20:00:00Z",
+                "date": "2026-02-23 20:00:00",
+                "status": "FINISHED",
+                "matchday": 27,
+                "home_team": "Everton",
+                "away_team": "Man United",
+                "home_team_crest": "https://crests.football-data.org/62.png",
+                "away_team_crest": "https://crests.football-data.org/66.png"
+            },
+            {
+                "matchId": 538064,
+                "utcDate": "2026-02-27T20:00:00Z",
+                "date": "2026-02-27 20:00:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Wolves",
+                "away_team": "Aston Villa",
+                "home_team_crest": "https://crests.football-data.org/76.png",
+                "away_team_crest": "https://crests.football-data.org/58.png"
+            },
+            {
+                "matchId": 538055,
+                "utcDate": "2026-02-28T12:30:00Z",
+                "date": "2026-02-28 12:30:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Bournemouth",
+                "away_team": "Sunderland AFC",
+                "home_team_crest": "https://crests.football-data.org/bournemouth.png",
+                "away_team_crest": "https://crests.football-data.org/71.png"
+            },
+            {
+                "matchId": 538058,
+                "utcDate": "2026-02-28T15:00:00Z",
+                "date": "2026-02-28 15:00:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Burnley FC",
+                "away_team": "Brentford",
+                "home_team_crest": "https://crests.football-data.org/328.png",
+                "away_team_crest": "https://crests.football-data.org/402.png"
+            },
+            {
+                "matchId": 538060,
+                "utcDate": "2026-02-28T15:00:00Z",
+                "date": "2026-02-28 15:00:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Liverpool",
+                "away_team": "West Ham",
+                "home_team_crest": "https://crests.football-data.org/64.png",
+                "away_team_crest": "https://crests.football-data.org/563.png"
+            },
+            {
+                "matchId": 538063,
+                "utcDate": "2026-02-28T15:00:00Z",
+                "date": "2026-02-28 15:00:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Newcastle",
+                "away_team": "Everton",
+                "home_team_crest": "https://crests.football-data.org/67.png",
+                "away_team_crest": "https://crests.football-data.org/62.png"
+            },
+            {
+                "matchId": 538061,
+                "utcDate": "2026-02-28T17:30:00Z",
+                "date": "2026-02-28 17:30:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Leeds United FC",
+                "away_team": "Man City",
+                "home_team_crest": "https://crests.football-data.org/341.png",
+                "away_team_crest": "https://crests.football-data.org/65.png"
+            },
+            {
+                "matchId": 538056,
+                "utcDate": "2026-03-01T14:00:00Z",
+                "date": "2026-03-01 14:00:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Brighton",
+                "away_team": "Nott'm Forest",
+                "home_team_crest": "https://crests.football-data.org/397.png",
+                "away_team_crest": "https://crests.football-data.org/351.png"
+            },
+            {
+                "matchId": 538059,
+                "utcDate": "2026-03-01T14:00:00Z",
+                "date": "2026-03-01 14:00:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Fulham",
+                "away_team": "Tottenham",
+                "home_team_crest": "https://crests.football-data.org/63.png",
+                "away_team_crest": "https://crests.football-data.org/73.png"
+            },
+            {
+                "matchId": 538062,
+                "utcDate": "2026-03-01T14:00:00Z",
+                "date": "2026-03-01 14:00:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Man United",
+                "away_team": "Crystal Palace",
+                "home_team_crest": "https://crests.football-data.org/66.png",
+                "away_team_crest": "https://crests.football-data.org/354.png"
+            },
+            {
+                "matchId": 538057,
+                "utcDate": "2026-03-01T16:30:00Z",
+                "date": "2026-03-01 16:30:00",
+                "status": "TIMED",
+                "matchday": 28,
+                "home_team": "Arsenal",
+                "away_team": "Chelsea",
+                "home_team_crest": "https://crests.football-data.org/57.png",
+                "away_team_crest": "https://crests.football-data.org/61.png"
+            },
+            {
+                "matchId": 538065,
+                "utcDate": "2026-03-03T19:30:00Z",
+                "date": "2026-03-03 19:30:00",
+                "status": "TIMED",
+                "matchday": 29,
+                "home_team": "Bournemouth",
+                "away_team": "Brentford",
+                "home_team_crest": "https://crests.football-data.org/bournemouth.png",
+                "away_team_crest": "https://crests.football-data.org/402.png"
+            },
+            {
+                "matchId": 538068,
+                "utcDate": "2026-03-03T19:30:00Z",
+                "date": "2026-03-03 19:30:00",
+                "status": "TIMED",
+                "matchday": 29,
+                "home_team": "Everton",
+                "away_team": "Burnley FC",
+                "home_team_crest": "https://crests.football-data.org/62.png",
+                "away_team_crest": "https://crests.football-data.org/328.png"
+            },
+            {
+                "matchId": 538070,
+                "utcDate": "2026-03-03T19:30:00Z",
+                "date": "2026-03-03 19:30:00",
+                "status": "TIMED",
+                "matchday": 29,
+                "home_team": "Leeds United FC",
+                "away_team": "Sunderland AFC",
+                "home_team_crest": "https://crests.football-data.org/341.png",
+                "away_team_crest": "https://crests.football-data.org/71.png"
+            },
+            {
+                "matchId": 538074,
+                "utcDate": "2026-03-03T20:15:00Z",
+                "date": "2026-03-03 20:15:00",
+                "status": "TIMED",
+                "matchday": 29,
+                "home_team": "Wolves",
+                "away_team": "Liverpool",
+                "home_team_crest": "https://crests.football-data.org/76.png",
+                "away_team_crest": "https://crests.football-data.org/64.png"
+            }
+        ]
+    },
+    "SP1": {
+        "id": 2014,
+        "crest": "https://crests.football-data.org/PD.png",
+        "name": "La Liga",
+        "next_matches": [
+            {
+                "matchId": 544451,
+                "utcDate": "2026-02-23T20:00:00Z",
+                "date": "2026-02-23 20:00:00",
+                "status": "FINISHED",
+                "matchday": 25,
+                "home_team": "Alaves",
+                "away_team": "Girona",
+                "home_team_crest": "https://crests.football-data.org/263.png",
+                "away_team_crest": "https://crests.football-data.org/298.png"
+            },
+            {
+                "matchId": 544465,
+                "utcDate": "2026-02-27T20:00:00Z",
+                "date": "2026-02-27 20:00:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Levante UD",
+                "away_team": "Alaves",
+                "home_team_crest": "https://crests.football-data.org/88.png",
+                "away_team_crest": "https://crests.football-data.org/263.png"
+            },
+            {
+                "matchId": 544466,
+                "utcDate": "2026-02-28T13:00:00Z",
+                "date": "2026-02-28 13:00:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Vallecano",
+                "away_team": "Ath Bilbao",
+                "home_team_crest": "https://crests.football-data.org/87.png",
+                "away_team_crest": "https://crests.football-data.org/77.png"
+            },
+            {
+                "matchId": 544461,
+                "utcDate": "2026-02-28T15:15:00Z",
+                "date": "2026-02-28 15:15:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Barcelona",
+                "away_team": "Villarreal",
+                "home_team_crest": "https://crests.football-data.org/81.png",
+                "away_team_crest": "https://crests.football-data.org/94.png"
+            },
+            {
+                "matchId": 544464,
+                "utcDate": "2026-02-28T17:30:00Z",
+                "date": "2026-02-28 17:30:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Mallorca",
+                "away_team": "Sociedad",
+                "home_team_crest": "https://crests.football-data.org/89.png",
+                "away_team_crest": "https://crests.football-data.org/92.png"
+            },
+            {
+                "matchId": 544467,
+                "utcDate": "2026-02-28T20:00:00Z",
+                "date": "2026-02-28 20:00:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Real Oviedo",
+                "away_team": "Ath Madrid",
+                "home_team_crest": "https://crests.football-data.org/1048.png",
+                "away_team_crest": "https://crests.football-data.org/78.png"
+            },
+            {
+                "matchId": 544463,
+                "utcDate": "2026-03-01T13:00:00Z",
+                "date": "2026-03-01 13:00:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Elche CF",
+                "away_team": "Espanol",
+                "home_team_crest": "https://crests.football-data.org/285.png",
+                "away_team_crest": "https://crests.football-data.org/80.png"
+            },
+            {
+                "matchId": 544470,
+                "utcDate": "2026-03-01T15:15:00Z",
+                "date": "2026-03-01 15:15:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Valencia",
+                "away_team": "Osasuna",
+                "home_team_crest": "https://crests.football-data.org/95.png",
+                "away_team_crest": "https://crests.football-data.org/79.png"
+            },
+            {
+                "matchId": 544462,
+                "utcDate": "2026-03-01T17:30:00Z",
+                "date": "2026-03-01 17:30:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Betis",
+                "away_team": "Sevilla",
+                "home_team_crest": "https://crests.football-data.org/90.png",
+                "away_team_crest": "https://crests.football-data.org/559.png"
+            },
+            {
+                "matchId": 544468,
+                "utcDate": "2026-03-01T20:00:00Z",
+                "date": "2026-03-01 20:00:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Girona",
+                "away_team": "Celta",
+                "home_team_crest": "https://crests.football-data.org/298.png",
+                "away_team_crest": "https://crests.football-data.org/558.png"
+            },
+            {
+                "matchId": 544469,
+                "utcDate": "2026-03-02T20:00:00Z",
+                "date": "2026-03-02 20:00:00",
+                "status": "TIMED",
+                "matchday": 26,
+                "home_team": "Real Madrid",
+                "away_team": "Getafe",
+                "home_team_crest": "https://crests.football-data.org/86.png",
+                "away_team_crest": "https://crests.football-data.org/82.png"
+            }
+        ]
+    },
+    "I1": {
+        "id": 2019,
+        "crest": "https://crests.football-data.org/SA.png",
+        "name": "Serie A",
+        "next_matches": [
+            {
+                "matchId": 537065,
+                "utcDate": "2026-02-23T17:30:00Z",
+                "date": "2026-02-23 17:30:00",
+                "status": "FINISHED",
+                "matchday": 26,
+                "home_team": "Fiorentina",
+                "away_team": "AC Pisa 1909",
+                "home_team_crest": "https://crests.football-data.org/99.png",
+                "away_team_crest": "https://crests.football-data.org/487.png"
+            },
+            {
+                "matchId": 537071,
+                "utcDate": "2026-02-23T19:45:00Z",
+                "date": "2026-02-23 19:45:00",
+                "status": "FINISHED",
+                "matchday": 26,
+                "home_team": "Bologna",
+                "away_team": "Udinese",
+                "home_team_crest": "https://crests.football-data.org/103.png",
+                "away_team_crest": "https://crests.football-data.org/115.png"
+            },
+            {
+                "matchId": 537080,
+                "utcDate": "2026-02-27T19:45:00Z",
+                "date": "2026-02-27 19:45:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "Parma",
+                "away_team": "Cagliari",
+                "home_team_crest": "https://crests.football-data.org/112.png",
+                "away_team_crest": "https://crests.football-data.org/104.png"
+            },
+            {
+                "matchId": 537076,
+                "utcDate": "2026-02-28T14:00:00Z",
+                "date": "2026-02-28 14:00:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "Como",
+                "away_team": "Lecce",
+                "home_team_crest": "https://crests.football-data.org/7397.png",
+                "away_team_crest": "https://crests.football-data.org/5890.png"
+            },
+            {
+                "matchId": 537078,
+                "utcDate": "2026-02-28T17:00:00Z",
+                "date": "2026-02-28 17:00:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "Verona",
+                "away_team": "Napoli",
+                "home_team_crest": "https://crests.football-data.org/450.png",
+                "away_team_crest": "https://crests.football-data.org/113.png"
+            },
+            {
+                "matchId": 537079,
+                "utcDate": "2026-02-28T19:45:00Z",
+                "date": "2026-02-28 19:45:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "Inter",
+                "away_team": "Genoa",
+                "home_team_crest": "https://crests.football-data.org/108.png",
+                "away_team_crest": "https://crests.football-data.org/107.png"
+            },
+            {
+                "matchId": 537084,
+                "utcDate": "2026-03-01T11:30:00Z",
+                "date": "2026-03-01 11:30:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "US Cremonese",
+                "away_team": "Milan",
+                "home_team_crest": "https://crests.football-data.org/457.png",
+                "away_team_crest": "https://crests.football-data.org/98.png"
+            },
+            {
+                "matchId": 537082,
+                "utcDate": "2026-03-01T14:00:00Z",
+                "date": "2026-03-01 14:00:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "US Sassuolo Calcio",
+                "away_team": "Atalanta",
+                "home_team_crest": "https://crests.football-data.org/471.png",
+                "away_team_crest": "https://crests.football-data.org/102.png"
+            },
+            {
+                "matchId": 537077,
+                "utcDate": "2026-03-01T17:00:00Z",
+                "date": "2026-03-01 17:00:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "Torino",
+                "away_team": "Lazio",
+                "home_team_crest": "https://crests.football-data.org/586.png",
+                "away_team_crest": "https://crests.football-data.org/110.png"
+            },
+            {
+                "matchId": 537075,
+                "utcDate": "2026-03-01T19:45:00Z",
+                "date": "2026-03-01 19:45:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "Roma",
+                "away_team": "Juventus",
+                "home_team_crest": "https://crests.football-data.org/100.png",
+                "away_team_crest": "https://crests.football-data.org/109.png"
+            },
+            {
+                "matchId": 537081,
+                "utcDate": "2026-03-02T17:30:00Z",
+                "date": "2026-03-02 17:30:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "AC Pisa 1909",
+                "away_team": "Bologna",
+                "home_team_crest": "https://crests.football-data.org/487.png",
+                "away_team_crest": "https://crests.football-data.org/103.png"
+            },
+            {
+                "matchId": 537083,
+                "utcDate": "2026-03-02T19:45:00Z",
+                "date": "2026-03-02 19:45:00",
+                "status": "TIMED",
+                "matchday": 27,
+                "home_team": "Udinese",
+                "away_team": "Fiorentina",
+                "home_team_crest": "https://crests.football-data.org/115.png",
+                "away_team_crest": "https://crests.football-data.org/99.png"
+            }
+        ]
+    },
+    "D1": {
+        "id": 2002,
+        "crest": "https://crests.football-data.org/BL1.png",
+        "name": "Bundesliga",
+        "next_matches": [
+            {
+                "matchId": 540621,
+                "utcDate": "2026-02-27T19:30:00Z",
+                "date": "2026-02-27 19:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Augsburg",
+                "away_team": "1. FC K\u00f6ln",
+                "home_team_crest": "https://crests.football-data.org/16.png",
+                "away_team_crest": "https://crests.football-data.org/1.png"
+            },
+            {
+                "matchId": 540615,
+                "utcDate": "2026-02-28T14:30:00Z",
+                "date": "2026-02-28 14:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Leverkusen",
+                "away_team": "Mainz",
+                "home_team_crest": "https://crests.football-data.org/3.png",
+                "away_team_crest": "https://crests.football-data.org/15.png"
+            },
+            {
+                "matchId": 540618,
+                "utcDate": "2026-02-28T14:30:00Z",
+                "date": "2026-02-28 14:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "M'gladbach",
+                "away_team": "Union Berlin",
+                "home_team_crest": "https://crests.football-data.org/18.png",
+                "away_team_crest": "https://crests.football-data.org/28.png"
+            },
+            {
+                "matchId": 540619,
+                "utcDate": "2026-02-28T14:30:00Z",
+                "date": "2026-02-28 14:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Hoffenheim",
+                "away_team": "St Pauli",
+                "home_team_crest": "https://crests.football-data.org/2.png",
+                "away_team_crest": "https://crests.football-data.org/20.png"
+            },
+            {
+                "matchId": 540620,
+                "utcDate": "2026-02-28T14:30:00Z",
+                "date": "2026-02-28 14:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Werder Bremen",
+                "away_team": "Heidenheim",
+                "home_team_crest": "https://crests.football-data.org/12.png",
+                "away_team_crest": "https://crests.football-data.org/44.png"
+            },
+            {
+                "matchId": 540613,
+                "utcDate": "2026-02-28T17:30:00Z",
+                "date": "2026-02-28 17:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Dortmund",
+                "away_team": "Bayern Munich",
+                "home_team_crest": "https://crests.football-data.org/4.png",
+                "away_team_crest": "https://crests.football-data.org/5.png"
+            },
+            {
+                "matchId": 540617,
+                "utcDate": "2026-03-01T14:30:00Z",
+                "date": "2026-03-01 14:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Stuttgart",
+                "away_team": "Wolfsburg",
+                "home_team_crest": "https://crests.football-data.org/10.png",
+                "away_team_crest": "https://crests.football-data.org/11.png"
+            },
+            {
+                "matchId": 540614,
+                "utcDate": "2026-03-01T16:30:00Z",
+                "date": "2026-03-01 16:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Ein Frankfurt",
+                "away_team": "Freiburg",
+                "home_team_crest": "https://crests.football-data.org/19.png",
+                "away_team_crest": "https://crests.football-data.org/17.png"
+            },
+            {
+                "matchId": 540616,
+                "utcDate": "2026-03-01T18:30:00Z",
+                "date": "2026-03-01 18:30:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Hamburger SV",
+                "away_team": "RB Leipzig",
+                "home_team_crest": "https://crests.football-data.org/7.png",
+                "away_team_crest": "https://crests.football-data.org/721.png"
+            }
+        ]
+    },
+    "F1": {
+        "id": 2015,
+        "crest": "https://crests.football-data.org/FL1.png",
+        "name": "Ligue 1",
+        "next_matches": [
+            {
+                "matchId": 542620,
+                "utcDate": "2026-02-27T19:45:00Z",
+                "date": "2026-02-27 19:45:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Strasbourg",
+                "away_team": "Lens",
+                "home_team_crest": "https://crests.football-data.org/576.png",
+                "away_team_crest": "https://crests.football-data.org/546.png"
+            },
+            {
+                "matchId": 542621,
+                "utcDate": "2026-02-28T16:00:00Z",
+                "date": "2026-02-28 16:00:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Rennes",
+                "away_team": "Toulouse",
+                "home_team_crest": "https://crests.football-data.org/529.png",
+                "away_team_crest": "https://crests.football-data.org/511.png"
+            },
+            {
+                "matchId": 542614,
+                "utcDate": "2026-02-28T18:00:00Z",
+                "date": "2026-02-28 18:00:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Monaco",
+                "away_team": "Angers",
+                "home_team_crest": "https://crests.football-data.org/548.png",
+                "away_team_crest": "https://crests.football-data.org/532.png"
+            },
+            {
+                "matchId": 542613,
+                "utcDate": "2026-02-28T20:05:00Z",
+                "date": "2026-02-28 20:05:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Le Havre",
+                "away_team": "Paris SG",
+                "home_team_crest": "https://crests.football-data.org/533.png",
+                "away_team_crest": "https://crests.football-data.org/524.png"
+            },
+            {
+                "matchId": 542617,
+                "utcDate": "2026-03-01T14:00:00Z",
+                "date": "2026-03-01 14:00:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Paris FC",
+                "away_team": "Nice",
+                "home_team_crest": "https://crests.football-data.org/1045.png",
+                "away_team_crest": "https://crests.football-data.org/522.png"
+            },
+            {
+                "matchId": 542615,
+                "utcDate": "2026-03-01T16:15:00Z",
+                "date": "2026-03-01 16:15:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "FC Lorient",
+                "away_team": "Auxerre",
+                "home_team_crest": "https://crests.football-data.org/525.png",
+                "away_team_crest": "https://crests.football-data.org/519.png"
+            },
+            {
+                "matchId": 542616,
+                "utcDate": "2026-03-01T16:15:00Z",
+                "date": "2026-03-01 16:15:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Metz",
+                "away_team": "Brest",
+                "home_team_crest": "https://crests.football-data.org/545.png",
+                "away_team_crest": "https://crests.football-data.org/512.png"
+            },
+            {
+                "matchId": 542619,
+                "utcDate": "2026-03-01T16:15:00Z",
+                "date": "2026-03-01 16:15:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Lille",
+                "away_team": "Nantes",
+                "home_team_crest": "https://crests.football-data.org/521.png",
+                "away_team_crest": "https://crests.football-data.org/543.png"
+            },
+            {
+                "matchId": 542618,
+                "utcDate": "2026-03-01T19:45:00Z",
+                "date": "2026-03-01 19:45:00",
+                "status": "TIMED",
+                "matchday": 24,
+                "home_team": "Marseille",
+                "away_team": "Lyon",
+                "home_team_crest": "https://crests.football-data.org/516.png",
+                "away_team_crest": "https://crests.football-data.org/523.png"
+            }
+        ]
+    }
+}
