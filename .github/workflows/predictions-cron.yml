@@ -50,6 +50,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/predictions.json data/next_matches.json
-          git commit -m "Update predictions.json" || echo "No changes to commit"
+          git add public/predictions.json
+          git commit -m "Update predictions.json" || echo "No changes"
           git push
