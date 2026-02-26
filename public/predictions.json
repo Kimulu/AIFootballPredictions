@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-25T07:52:18Z",
+  "generatedAt": "2026-02-26T01:18:28Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -947,6 +947,28 @@
         "prob_over": 0.555053,
         "prob_under": 0.444947
       }
+    },
+    {
+      "matchId": 538073,
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-03-05T20:00:00Z",
+      "date": "2026-03-05 20:00:00",
+      "status": "TIMED",
+      "matchday": 29,
+      "bucket": "upcoming",
+      "home_team": "Tottenham",
+      "away_team": "Crystal Palace",
+      "home_team_crest": "https://crests.football-data.org/73.png",
+      "away_team_crest": "https://crests.football-data.org/354.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.523703,
+        "prob_over": 0.476297,
+        "prob_under": 0.523703
+      }
     }
   ],
   "buckets": {
@@ -1875,6 +1897,28 @@
           "confidence": 0.555053,
           "prob_over": 0.555053,
           "prob_under": 0.444947
+        }
+      },
+      {
+        "matchId": 538073,
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-03-05T20:00:00Z",
+        "date": "2026-03-05 20:00:00",
+        "status": "TIMED",
+        "matchday": 29,
+        "bucket": "upcoming",
+        "home_team": "Tottenham",
+        "away_team": "Crystal Palace",
+        "home_team_crest": "https://crests.football-data.org/73.png",
+        "away_team_crest": "https://crests.football-data.org/354.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.523703,
+          "prob_over": 0.476297,
+          "prob_under": 0.523703
         }
       }
     ]
