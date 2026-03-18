@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T01:20:48Z",
+  "generatedAt": "2026-03-18T01:24:02Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -24,28 +24,6 @@
     }
   },
   "matches": [
-    {
-      "matchId": 538078,
-      "league": "E0",
-      "competitionName": "Premier League",
-      "competitionCrest": "https://crests.football-data.org/PL.png",
-      "utcDate": "2026-03-16T20:00:00Z",
-      "date": "2026-03-16 20:00:00",
-      "status": "FINISHED",
-      "matchday": 30,
-      "bucket": "yesterday",
-      "home_team": "Brentford",
-      "away_team": "Wolves",
-      "home_team_crest": "https://crests.football-data.org/402.png",
-      "away_team_crest": "https://crests.football-data.org/76.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "OVER",
-        "confidence": 0.512456,
-        "prob_over": 0.512456,
-        "prob_under": 0.487544
-      }
-    },
     {
       "matchId": 537109,
       "league": "I1",
@@ -403,8 +381,8 @@
       "league": "F1",
       "competitionName": "Ligue 1",
       "competitionCrest": "https://crests.football-data.org/FL1.png",
-      "utcDate": "2026-03-21T20:05:00Z",
-      "date": "2026-03-21 20:05:00",
+      "utcDate": "2026-03-21T20:00:00Z",
+      "date": "2026-03-21 20:00:00",
       "status": "TIMED",
       "matchday": 27,
       "bucket": "upcoming",
@@ -796,30 +774,7 @@
     }
   ],
   "buckets": {
-    "yesterday": [
-      {
-        "matchId": 538078,
-        "league": "E0",
-        "competitionName": "Premier League",
-        "competitionCrest": "https://crests.football-data.org/PL.png",
-        "utcDate": "2026-03-16T20:00:00Z",
-        "date": "2026-03-16 20:00:00",
-        "status": "FINISHED",
-        "matchday": 30,
-        "bucket": "yesterday",
-        "home_team": "Brentford",
-        "away_team": "Wolves",
-        "home_team_crest": "https://crests.football-data.org/402.png",
-        "away_team_crest": "https://crests.football-data.org/76.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "OVER",
-          "confidence": 0.512456,
-          "prob_over": 0.512456,
-          "prob_under": 0.487544
-        }
-      }
-    ],
+    "yesterday": [],
     "today": [],
     "upcoming": [
       {
@@ -1179,8 +1134,8 @@
         "league": "F1",
         "competitionName": "Ligue 1",
         "competitionCrest": "https://crests.football-data.org/FL1.png",
-        "utcDate": "2026-03-21T20:05:00Z",
-        "date": "2026-03-21 20:05:00",
+        "utcDate": "2026-03-21T20:00:00Z",
+        "date": "2026-03-21 20:00:00",
         "status": "TIMED",
         "matchday": 27,
         "bucket": "upcoming",
