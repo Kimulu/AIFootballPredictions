@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T01:24:16Z",
+  "generatedAt": "2026-03-20T01:19:43Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -33,7 +33,7 @@
       "date": "2026-03-20 17:30:00",
       "status": "TIMED",
       "matchday": 30,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Cagliari",
       "away_team": "Napoli",
       "home_team_crest": "https://crests.football-data.org/104.png",
@@ -55,7 +55,7 @@
       "date": "2026-03-20 19:30:00",
       "status": "TIMED",
       "matchday": 27,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "RB Leipzig",
       "away_team": "Hoffenheim",
       "home_team_crest": "https://crests.football-data.org/721.png",
@@ -77,7 +77,7 @@
       "date": "2026-03-20 19:45:00",
       "status": "TIMED",
       "matchday": 30,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Genoa",
       "away_team": "Udinese",
       "home_team_crest": "https://crests.football-data.org/107.png",
@@ -99,7 +99,7 @@
       "date": "2026-03-20 19:45:00",
       "status": "TIMED",
       "matchday": 27,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Lens",
       "away_team": "Angers",
       "home_team_crest": "https://crests.football-data.org/546.png",
@@ -121,7 +121,7 @@
       "date": "2026-03-20 20:00:00",
       "status": "TIMED",
       "matchday": 31,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Bournemouth",
       "away_team": "Man United",
       "home_team_crest": "https://crests.football-data.org/bournemouth.png",
@@ -143,7 +143,7 @@
       "date": "2026-03-20 20:00:00",
       "status": "TIMED",
       "matchday": 29,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Villarreal",
       "away_team": "Sociedad",
       "home_team_crest": "https://crests.football-data.org/94.png",
@@ -775,8 +775,7 @@
   ],
   "buckets": {
     "yesterday": [],
-    "today": [],
-    "upcoming": [
+    "today": [
       {
         "matchId": 537109,
         "league": "I1",
@@ -786,7 +785,7 @@
         "date": "2026-03-20 17:30:00",
         "status": "TIMED",
         "matchday": 30,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Cagliari",
         "away_team": "Napoli",
         "home_team_crest": "https://crests.football-data.org/104.png",
@@ -808,7 +807,7 @@
         "date": "2026-03-20 19:30:00",
         "status": "TIMED",
         "matchday": 27,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "RB Leipzig",
         "away_team": "Hoffenheim",
         "home_team_crest": "https://crests.football-data.org/721.png",
@@ -830,7 +829,7 @@
         "date": "2026-03-20 19:45:00",
         "status": "TIMED",
         "matchday": 30,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Genoa",
         "away_team": "Udinese",
         "home_team_crest": "https://crests.football-data.org/107.png",
@@ -852,7 +851,7 @@
         "date": "2026-03-20 19:45:00",
         "status": "TIMED",
         "matchday": 27,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Lens",
         "away_team": "Angers",
         "home_team_crest": "https://crests.football-data.org/546.png",
@@ -874,7 +873,7 @@
         "date": "2026-03-20 20:00:00",
         "status": "TIMED",
         "matchday": 31,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Bournemouth",
         "away_team": "Man United",
         "home_team_crest": "https://crests.football-data.org/bournemouth.png",
@@ -896,7 +895,7 @@
         "date": "2026-03-20 20:00:00",
         "status": "TIMED",
         "matchday": 29,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Villarreal",
         "away_team": "Sociedad",
         "home_team_crest": "https://crests.football-data.org/94.png",
@@ -908,7 +907,9 @@
           "prob_over": 0.73515,
           "prob_under": 0.26485
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 538087,
         "league": "E0",
