@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T01:27:58Z",
+  "generatedAt": "2026-03-27T01:28:05Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -23,10 +23,56 @@
       "crest": "https://crests.football-data.org/FL1.png"
     }
   },
-  "matches": [],
+  "matches": [
+    {
+      "matchId": 542654,
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-04-03T18:45:00Z",
+      "date": "2026-04-03 18:45:00",
+      "status": "TIMED",
+      "matchday": 28,
+      "bucket": "upcoming",
+      "home_team": "Paris SG",
+      "away_team": "Toulouse",
+      "home_team_crest": "https://crests.football-data.org/524.png",
+      "away_team_crest": "https://crests.football-data.org/511.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.855027,
+        "prob_over": 0.855027,
+        "prob_under": 0.144973
+      }
+    }
+  ],
   "buckets": {
     "yesterday": [],
     "today": [],
-    "upcoming": []
+    "upcoming": [
+      {
+        "matchId": 542654,
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-04-03T18:45:00Z",
+        "date": "2026-04-03 18:45:00",
+        "status": "TIMED",
+        "matchday": 28,
+        "bucket": "upcoming",
+        "home_team": "Paris SG",
+        "away_team": "Toulouse",
+        "home_team_crest": "https://crests.football-data.org/524.png",
+        "away_team_crest": "https://crests.football-data.org/511.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.855027,
+          "prob_over": 0.855027,
+          "prob_under": 0.144973
+        }
+      }
+    ]
   }
 }
