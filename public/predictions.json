@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T01:44:18Z",
+  "generatedAt": "2026-03-30T01:46:37Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -551,6 +551,116 @@
         "prob_over": 0.007705,
         "prob_under": 0.992295
       }
+    },
+    {
+      "matchId": 537122,
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-04-06T10:30:00Z",
+      "date": "2026-04-06 10:30:00",
+      "status": "TIMED",
+      "matchday": 31,
+      "bucket": "upcoming",
+      "home_team": "Udinese",
+      "away_team": "Como",
+      "home_team_crest": "https://crests.football-data.org/115.png",
+      "away_team_crest": "https://crests.football-data.org/7397.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.568833,
+        "prob_over": 0.568833,
+        "prob_under": 0.431167
+      }
+    },
+    {
+      "matchId": 537124,
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-04-06T13:00:00Z",
+      "date": "2026-04-06 13:00:00",
+      "status": "TIMED",
+      "matchday": 31,
+      "bucket": "upcoming",
+      "home_team": "Lecce",
+      "away_team": "Atalanta",
+      "home_team_crest": "https://crests.football-data.org/5890.png",
+      "away_team_crest": "https://crests.football-data.org/102.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.923958,
+        "prob_over": 0.076042,
+        "prob_under": 0.923958
+      }
+    },
+    {
+      "matchId": 537117,
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-04-06T16:00:00Z",
+      "date": "2026-04-06 16:00:00",
+      "status": "TIMED",
+      "matchday": 31,
+      "bucket": "upcoming",
+      "home_team": "Juventus",
+      "away_team": "Genoa",
+      "home_team_crest": "https://crests.football-data.org/109.png",
+      "away_team_crest": "https://crests.football-data.org/107.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.93555,
+        "prob_over": 0.06445,
+        "prob_under": 0.93555
+      }
+    },
+    {
+      "matchId": 537121,
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-04-06T18:45:00Z",
+      "date": "2026-04-06 18:45:00",
+      "status": "TIMED",
+      "matchday": 31,
+      "bucket": "upcoming",
+      "home_team": "Napoli",
+      "away_team": "Milan",
+      "home_team_crest": "https://crests.football-data.org/113.png",
+      "away_team_crest": "https://crests.football-data.org/98.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.512439,
+        "prob_over": 0.512439,
+        "prob_under": 0.487561
+      }
+    },
+    {
+      "matchId": 544504,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-04-06T19:00:00Z",
+      "date": "2026-04-06 19:00:00",
+      "status": "TIMED",
+      "matchday": 30,
+      "bucket": "upcoming",
+      "home_team": "Girona",
+      "away_team": "Villarreal",
+      "home_team_crest": "https://crests.football-data.org/298.png",
+      "away_team_crest": "https://crests.football-data.org/94.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.816246,
+        "prob_over": 0.816246,
+        "prob_under": 0.183754
+      }
     }
   ],
   "buckets": {
@@ -1083,6 +1193,116 @@
           "confidence": 0.992295,
           "prob_over": 0.007705,
           "prob_under": 0.992295
+        }
+      },
+      {
+        "matchId": 537122,
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-04-06T10:30:00Z",
+        "date": "2026-04-06 10:30:00",
+        "status": "TIMED",
+        "matchday": 31,
+        "bucket": "upcoming",
+        "home_team": "Udinese",
+        "away_team": "Como",
+        "home_team_crest": "https://crests.football-data.org/115.png",
+        "away_team_crest": "https://crests.football-data.org/7397.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.568833,
+          "prob_over": 0.568833,
+          "prob_under": 0.431167
+        }
+      },
+      {
+        "matchId": 537124,
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-04-06T13:00:00Z",
+        "date": "2026-04-06 13:00:00",
+        "status": "TIMED",
+        "matchday": 31,
+        "bucket": "upcoming",
+        "home_team": "Lecce",
+        "away_team": "Atalanta",
+        "home_team_crest": "https://crests.football-data.org/5890.png",
+        "away_team_crest": "https://crests.football-data.org/102.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.923958,
+          "prob_over": 0.076042,
+          "prob_under": 0.923958
+        }
+      },
+      {
+        "matchId": 537117,
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-04-06T16:00:00Z",
+        "date": "2026-04-06 16:00:00",
+        "status": "TIMED",
+        "matchday": 31,
+        "bucket": "upcoming",
+        "home_team": "Juventus",
+        "away_team": "Genoa",
+        "home_team_crest": "https://crests.football-data.org/109.png",
+        "away_team_crest": "https://crests.football-data.org/107.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.93555,
+          "prob_over": 0.06445,
+          "prob_under": 0.93555
+        }
+      },
+      {
+        "matchId": 537121,
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-04-06T18:45:00Z",
+        "date": "2026-04-06 18:45:00",
+        "status": "TIMED",
+        "matchday": 31,
+        "bucket": "upcoming",
+        "home_team": "Napoli",
+        "away_team": "Milan",
+        "home_team_crest": "https://crests.football-data.org/113.png",
+        "away_team_crest": "https://crests.football-data.org/98.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.512439,
+          "prob_over": 0.512439,
+          "prob_under": 0.487561
+        }
+      },
+      {
+        "matchId": 544504,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-04-06T19:00:00Z",
+        "date": "2026-04-06 19:00:00",
+        "status": "TIMED",
+        "matchday": 30,
+        "bucket": "upcoming",
+        "home_team": "Girona",
+        "away_team": "Villarreal",
+        "home_team_crest": "https://crests.football-data.org/298.png",
+        "away_team_crest": "https://crests.football-data.org/94.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.816246,
+          "prob_over": 0.816246,
+          "prob_under": 0.183754
         }
       }
     ]
