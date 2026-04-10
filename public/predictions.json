@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-09T01:23:05Z",
+  "generatedAt": "2026-04-10T01:47:53Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -33,7 +33,7 @@
       "date": "2026-04-10 18:30:00",
       "status": "TIMED",
       "matchday": 29,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Augsburg",
       "away_team": "Hoffenheim",
       "home_team_crest": "https://crests.football-data.org/16.png",
@@ -55,7 +55,7 @@
       "date": "2026-04-10 19:00:00",
       "status": "TIMED",
       "matchday": 32,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "West Ham",
       "away_team": "Wolves",
       "home_team_crest": "https://crests.football-data.org/563.png",
@@ -77,7 +77,7 @@
       "date": "2026-04-10 19:00:00",
       "status": "TIMED",
       "matchday": 31,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Real Madrid",
       "away_team": "Girona",
       "home_team_crest": "https://crests.football-data.org/86.png",
@@ -99,7 +99,7 @@
       "date": "2026-04-10 19:05:00",
       "status": "TIMED",
       "matchday": 29,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Marseille",
       "away_team": "Metz",
       "home_team_crest": "https://crests.football-data.org/516.png",
@@ -749,12 +749,55 @@
         "prob_over": 0.478456,
         "prob_under": 0.521544
       }
+    },
+    {
+      "matchId": 537137,
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-04-17T18:45:00Z",
+      "date": "2026-04-17 18:45:00",
+      "status": "TIMED",
+      "matchday": 33,
+      "bucket": "upcoming",
+      "home_team": "Inter",
+      "away_team": "Cagliari",
+      "home_team_crest": "https://crests.football-data.org/108.png",
+      "away_team_crest": "https://crests.football-data.org/104.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.509046,
+        "prob_over": 0.509046,
+        "prob_under": 0.490954
+      }
+    },
+    {
+      "matchId": 542674,
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-04-17T18:45:00Z",
+      "date": "2026-04-17 18:45:00",
+      "status": "TIMED",
+      "matchday": 30,
+      "bucket": "upcoming",
+      "home_team": "Lens",
+      "away_team": "Toulouse",
+      "home_team_crest": "https://crests.football-data.org/546.png",
+      "away_team_crest": "https://crests.football-data.org/511.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.789902,
+        "prob_over": 0.789902,
+        "prob_under": 0.210098
+      }
     }
   ],
   "buckets": {
     "yesterday": [],
-    "today": [],
-    "upcoming": [
+    "today": [
       {
         "matchId": 540665,
         "league": "D1",
@@ -764,7 +807,7 @@
         "date": "2026-04-10 18:30:00",
         "status": "TIMED",
         "matchday": 29,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Augsburg",
         "away_team": "Hoffenheim",
         "home_team_crest": "https://crests.football-data.org/16.png",
@@ -786,7 +829,7 @@
         "date": "2026-04-10 19:00:00",
         "status": "TIMED",
         "matchday": 32,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "West Ham",
         "away_team": "Wolves",
         "home_team_crest": "https://crests.football-data.org/563.png",
@@ -808,7 +851,7 @@
         "date": "2026-04-10 19:00:00",
         "status": "TIMED",
         "matchday": 31,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Real Madrid",
         "away_team": "Girona",
         "home_team_crest": "https://crests.football-data.org/86.png",
@@ -830,7 +873,7 @@
         "date": "2026-04-10 19:05:00",
         "status": "TIMED",
         "matchday": 29,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Marseille",
         "away_team": "Metz",
         "home_team_crest": "https://crests.football-data.org/516.png",
@@ -842,7 +885,9 @@
           "prob_over": 0.667199,
           "prob_under": 0.332801
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 538097,
         "league": "E0",
@@ -1479,6 +1524,50 @@
           "confidence": 0.521544,
           "prob_over": 0.478456,
           "prob_under": 0.521544
+        }
+      },
+      {
+        "matchId": 537137,
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-04-17T18:45:00Z",
+        "date": "2026-04-17 18:45:00",
+        "status": "TIMED",
+        "matchday": 33,
+        "bucket": "upcoming",
+        "home_team": "Inter",
+        "away_team": "Cagliari",
+        "home_team_crest": "https://crests.football-data.org/108.png",
+        "away_team_crest": "https://crests.football-data.org/104.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.509046,
+          "prob_over": 0.509046,
+          "prob_under": 0.490954
+        }
+      },
+      {
+        "matchId": 542674,
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-04-17T18:45:00Z",
+        "date": "2026-04-17 18:45:00",
+        "status": "TIMED",
+        "matchday": 30,
+        "bucket": "upcoming",
+        "home_team": "Lens",
+        "away_team": "Toulouse",
+        "home_team_crest": "https://crests.football-data.org/546.png",
+        "away_team_crest": "https://crests.football-data.org/511.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.789902,
+          "prob_over": 0.789902,
+          "prob_under": 0.210098
         }
       }
     ]
