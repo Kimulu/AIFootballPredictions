@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T02:06:20Z",
+  "generatedAt": "2026-04-29T02:08:00Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -24,72 +24,6 @@
     }
   },
   "matches": [
-    {
-      "matchId": 537147,
-      "league": "I1",
-      "competitionName": "Serie A",
-      "competitionCrest": "https://crests.football-data.org/SA.png",
-      "utcDate": "2026-04-27T16:30:00Z",
-      "date": "2026-04-27 16:30:00",
-      "status": "FINISHED",
-      "matchday": 34,
-      "bucket": "yesterday",
-      "home_team": "Cagliari",
-      "away_team": "Atalanta",
-      "home_team_crest": "https://crests.football-data.org/104.png",
-      "away_team_crest": "https://crests.football-data.org/102.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.909619,
-        "prob_over": 0.090381,
-        "prob_under": 0.909619
-      }
-    },
-    {
-      "matchId": 537152,
-      "league": "I1",
-      "competitionName": "Serie A",
-      "competitionCrest": "https://crests.football-data.org/SA.png",
-      "utcDate": "2026-04-27T18:45:00Z",
-      "date": "2026-04-27 18:45:00",
-      "status": "FINISHED",
-      "matchday": 34,
-      "bucket": "yesterday",
-      "home_team": "Lazio",
-      "away_team": "Udinese",
-      "home_team_crest": "https://crests.football-data.org/110.png",
-      "away_team_crest": "https://crests.football-data.org/115.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "OVER",
-        "confidence": 0.948658,
-        "prob_over": 0.948658,
-        "prob_under": 0.051342
-      }
-    },
-    {
-      "matchId": 538122,
-      "league": "E0",
-      "competitionName": "Premier League",
-      "competitionCrest": "https://crests.football-data.org/PL.png",
-      "utcDate": "2026-04-27T19:00:00Z",
-      "date": "2026-04-27 19:00:00",
-      "status": "FINISHED",
-      "matchday": 34,
-      "bucket": "yesterday",
-      "home_team": "Man United",
-      "away_team": "Brentford",
-      "home_team_crest": "https://crests.football-data.org/66.png",
-      "away_team_crest": "https://crests.football-data.org/402.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "OVER",
-        "confidence": 0.798691,
-        "prob_over": 0.798691,
-        "prob_under": 0.201309
-      }
-    },
     {
       "matchId": 544546,
       "league": "SP1",
@@ -884,74 +818,7 @@
     }
   ],
   "buckets": {
-    "yesterday": [
-      {
-        "matchId": 537147,
-        "league": "I1",
-        "competitionName": "Serie A",
-        "competitionCrest": "https://crests.football-data.org/SA.png",
-        "utcDate": "2026-04-27T16:30:00Z",
-        "date": "2026-04-27 16:30:00",
-        "status": "FINISHED",
-        "matchday": 34,
-        "bucket": "yesterday",
-        "home_team": "Cagliari",
-        "away_team": "Atalanta",
-        "home_team_crest": "https://crests.football-data.org/104.png",
-        "away_team_crest": "https://crests.football-data.org/102.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.909619,
-          "prob_over": 0.090381,
-          "prob_under": 0.909619
-        }
-      },
-      {
-        "matchId": 537152,
-        "league": "I1",
-        "competitionName": "Serie A",
-        "competitionCrest": "https://crests.football-data.org/SA.png",
-        "utcDate": "2026-04-27T18:45:00Z",
-        "date": "2026-04-27 18:45:00",
-        "status": "FINISHED",
-        "matchday": 34,
-        "bucket": "yesterday",
-        "home_team": "Lazio",
-        "away_team": "Udinese",
-        "home_team_crest": "https://crests.football-data.org/110.png",
-        "away_team_crest": "https://crests.football-data.org/115.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "OVER",
-          "confidence": 0.948658,
-          "prob_over": 0.948658,
-          "prob_under": 0.051342
-        }
-      },
-      {
-        "matchId": 538122,
-        "league": "E0",
-        "competitionName": "Premier League",
-        "competitionCrest": "https://crests.football-data.org/PL.png",
-        "utcDate": "2026-04-27T19:00:00Z",
-        "date": "2026-04-27 19:00:00",
-        "status": "FINISHED",
-        "matchday": 34,
-        "bucket": "yesterday",
-        "home_team": "Man United",
-        "away_team": "Brentford",
-        "home_team_crest": "https://crests.football-data.org/66.png",
-        "away_team_crest": "https://crests.football-data.org/402.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "OVER",
-          "confidence": 0.798691,
-          "prob_over": 0.798691,
-          "prob_under": 0.201309
-        }
-      }
-    ],
+    "yesterday": [],
     "today": [],
     "upcoming": [
       {
