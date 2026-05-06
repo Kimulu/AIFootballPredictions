@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T02:03:04Z",
+  "generatedAt": "2026-05-06T02:02:06Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -24,94 +24,6 @@
     }
   },
   "matches": [
-    {
-      "matchId": 538129,
-      "league": "E0",
-      "competitionName": "Premier League",
-      "competitionCrest": "https://crests.football-data.org/PL.png",
-      "utcDate": "2026-05-04T14:00:00Z",
-      "date": "2026-05-04 14:00:00",
-      "status": "FINISHED",
-      "matchday": 35,
-      "bucket": "yesterday",
-      "home_team": "Chelsea",
-      "away_team": "Nott'm Forest",
-      "home_team_crest": "https://crests.football-data.org/61.png",
-      "away_team_crest": "https://crests.football-data.org/351.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.91743,
-        "prob_over": 0.08257,
-        "prob_under": 0.91743
-      }
-    },
-    {
-      "matchId": 537155,
-      "league": "I1",
-      "competitionName": "Serie A",
-      "competitionCrest": "https://crests.football-data.org/SA.png",
-      "utcDate": "2026-05-04T18:45:00Z",
-      "date": "2026-05-04 18:45:00",
-      "status": "FINISHED",
-      "matchday": 35,
-      "bucket": "yesterday",
-      "home_team": "Roma",
-      "away_team": "Fiorentina",
-      "home_team_crest": "https://crests.football-data.org/100.png",
-      "away_team_crest": "https://crests.football-data.org/99.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.879572,
-        "prob_over": 0.120428,
-        "prob_under": 0.879572
-      }
-    },
-    {
-      "matchId": 538130,
-      "league": "E0",
-      "competitionName": "Premier League",
-      "competitionCrest": "https://crests.football-data.org/PL.png",
-      "utcDate": "2026-05-04T19:00:00Z",
-      "date": "2026-05-04 19:00:00",
-      "status": "FINISHED",
-      "matchday": 35,
-      "bucket": "yesterday",
-      "home_team": "Everton",
-      "away_team": "Man City",
-      "home_team_crest": "https://crests.football-data.org/62.png",
-      "away_team_crest": "https://crests.football-data.org/65.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.772739,
-        "prob_over": 0.227261,
-        "prob_under": 0.772739
-      }
-    },
-    {
-      "matchId": 544550,
-      "league": "SP1",
-      "competitionName": "La Liga",
-      "competitionCrest": "https://crests.football-data.org/PD.png",
-      "utcDate": "2026-05-04T19:00:00Z",
-      "date": "2026-05-04 19:00:00",
-      "status": "FINISHED",
-      "matchday": 34,
-      "bucket": "yesterday",
-      "home_team": "Sevilla",
-      "away_team": "Sociedad",
-      "home_team_crest": "https://crests.football-data.org/559.png",
-      "away_team_crest": "https://crests.football-data.org/92.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.653613,
-        "prob_over": 0.346387,
-        "prob_under": 0.653613
-      }
-    },
     {
       "matchId": 540696,
       "league": "D1",
@@ -925,99 +837,164 @@
         "prob_over": 0.63651,
         "prob_under": 0.36349
       }
+    },
+    {
+      "matchId": 544566,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-05-13T17:00:00Z",
+      "date": "2026-05-13 17:00:00",
+      "status": "TIMED",
+      "matchday": 36,
+      "bucket": "upcoming",
+      "home_team": "Espanol",
+      "away_team": "Ath Bilbao",
+      "home_team_crest": "https://crests.football-data.org/80.png",
+      "away_team_crest": "https://crests.football-data.org/77.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.932661,
+        "prob_over": 0.932661,
+        "prob_under": 0.067339
+      }
+    },
+    {
+      "matchId": 544569,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-05-13T17:00:00Z",
+      "date": "2026-05-13 17:00:00",
+      "status": "TIMED",
+      "matchday": 36,
+      "bucket": "upcoming",
+      "home_team": "Villarreal",
+      "away_team": "Sevilla",
+      "home_team_crest": "https://crests.football-data.org/94.png",
+      "away_team_crest": "https://crests.football-data.org/559.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.951035,
+        "prob_over": 0.951035,
+        "prob_under": 0.048965
+      }
+    },
+    {
+      "matchId": 542665,
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-05-13T17:00:00Z",
+      "date": "2026-05-13 17:00:00",
+      "status": "TIMED",
+      "matchday": 29,
+      "bucket": "upcoming",
+      "home_team": "Brest",
+      "away_team": "Strasbourg",
+      "home_team_crest": "https://crests.football-data.org/512.png",
+      "away_team_crest": "https://crests.football-data.org/576.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.677217,
+        "prob_over": 0.322783,
+        "prob_under": 0.677217
+      }
+    },
+    {
+      "matchId": 538091,
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-05-13T19:00:00Z",
+      "date": "2026-05-13 19:00:00",
+      "status": "TIMED",
+      "matchday": 31,
+      "bucket": "upcoming",
+      "home_team": "Man City",
+      "away_team": "Crystal Palace",
+      "home_team_crest": "https://crests.football-data.org/65.png",
+      "away_team_crest": "https://crests.football-data.org/354.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.545445,
+        "prob_over": 0.454555,
+        "prob_under": 0.545445
+      }
+    },
+    {
+      "matchId": 542664,
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-05-13T19:00:00Z",
+      "date": "2026-05-13 19:00:00",
+      "status": "TIMED",
+      "matchday": 29,
+      "bucket": "upcoming",
+      "home_team": "Lens",
+      "away_team": "Paris SG",
+      "home_team_crest": "https://crests.football-data.org/546.png",
+      "away_team_crest": "https://crests.football-data.org/524.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.909336,
+        "prob_over": 0.909336,
+        "prob_under": 0.090664
+      }
+    },
+    {
+      "matchId": 544561,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-05-13T19:30:00Z",
+      "date": "2026-05-13 19:30:00",
+      "status": "TIMED",
+      "matchday": 36,
+      "bucket": "upcoming",
+      "home_team": "Alaves",
+      "away_team": "Barcelona",
+      "home_team_crest": "https://crests.football-data.org/263.png",
+      "away_team_crest": "https://crests.football-data.org/81.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.562861,
+        "prob_over": 0.562861,
+        "prob_under": 0.437139
+      }
+    },
+    {
+      "matchId": 544564,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-05-13T19:30:00Z",
+      "date": "2026-05-13 19:30:00",
+      "status": "TIMED",
+      "matchday": 36,
+      "bucket": "upcoming",
+      "home_team": "Getafe",
+      "away_team": "Mallorca",
+      "home_team_crest": "https://crests.football-data.org/82.png",
+      "away_team_crest": "https://crests.football-data.org/89.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.941118,
+        "prob_over": 0.058882,
+        "prob_under": 0.941118
+      }
     }
   ],
   "buckets": {
-    "yesterday": [
-      {
-        "matchId": 538129,
-        "league": "E0",
-        "competitionName": "Premier League",
-        "competitionCrest": "https://crests.football-data.org/PL.png",
-        "utcDate": "2026-05-04T14:00:00Z",
-        "date": "2026-05-04 14:00:00",
-        "status": "FINISHED",
-        "matchday": 35,
-        "bucket": "yesterday",
-        "home_team": "Chelsea",
-        "away_team": "Nott'm Forest",
-        "home_team_crest": "https://crests.football-data.org/61.png",
-        "away_team_crest": "https://crests.football-data.org/351.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.91743,
-          "prob_over": 0.08257,
-          "prob_under": 0.91743
-        }
-      },
-      {
-        "matchId": 537155,
-        "league": "I1",
-        "competitionName": "Serie A",
-        "competitionCrest": "https://crests.football-data.org/SA.png",
-        "utcDate": "2026-05-04T18:45:00Z",
-        "date": "2026-05-04 18:45:00",
-        "status": "FINISHED",
-        "matchday": 35,
-        "bucket": "yesterday",
-        "home_team": "Roma",
-        "away_team": "Fiorentina",
-        "home_team_crest": "https://crests.football-data.org/100.png",
-        "away_team_crest": "https://crests.football-data.org/99.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.879572,
-          "prob_over": 0.120428,
-          "prob_under": 0.879572
-        }
-      },
-      {
-        "matchId": 538130,
-        "league": "E0",
-        "competitionName": "Premier League",
-        "competitionCrest": "https://crests.football-data.org/PL.png",
-        "utcDate": "2026-05-04T19:00:00Z",
-        "date": "2026-05-04 19:00:00",
-        "status": "FINISHED",
-        "matchday": 35,
-        "bucket": "yesterday",
-        "home_team": "Everton",
-        "away_team": "Man City",
-        "home_team_crest": "https://crests.football-data.org/62.png",
-        "away_team_crest": "https://crests.football-data.org/65.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.772739,
-          "prob_over": 0.227261,
-          "prob_under": 0.772739
-        }
-      },
-      {
-        "matchId": 544550,
-        "league": "SP1",
-        "competitionName": "La Liga",
-        "competitionCrest": "https://crests.football-data.org/PD.png",
-        "utcDate": "2026-05-04T19:00:00Z",
-        "date": "2026-05-04 19:00:00",
-        "status": "FINISHED",
-        "matchday": 34,
-        "bucket": "yesterday",
-        "home_team": "Sevilla",
-        "away_team": "Sociedad",
-        "home_team_crest": "https://crests.football-data.org/559.png",
-        "away_team_crest": "https://crests.football-data.org/92.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.653613,
-          "prob_over": 0.346387,
-          "prob_under": 0.653613
-        }
-      }
-    ],
+    "yesterday": [],
     "today": [],
     "upcoming": [
       {
@@ -1832,6 +1809,160 @@
           "confidence": 0.63651,
           "prob_over": 0.63651,
           "prob_under": 0.36349
+        }
+      },
+      {
+        "matchId": 544566,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-05-13T17:00:00Z",
+        "date": "2026-05-13 17:00:00",
+        "status": "TIMED",
+        "matchday": 36,
+        "bucket": "upcoming",
+        "home_team": "Espanol",
+        "away_team": "Ath Bilbao",
+        "home_team_crest": "https://crests.football-data.org/80.png",
+        "away_team_crest": "https://crests.football-data.org/77.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.932661,
+          "prob_over": 0.932661,
+          "prob_under": 0.067339
+        }
+      },
+      {
+        "matchId": 544569,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-05-13T17:00:00Z",
+        "date": "2026-05-13 17:00:00",
+        "status": "TIMED",
+        "matchday": 36,
+        "bucket": "upcoming",
+        "home_team": "Villarreal",
+        "away_team": "Sevilla",
+        "home_team_crest": "https://crests.football-data.org/94.png",
+        "away_team_crest": "https://crests.football-data.org/559.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.951035,
+          "prob_over": 0.951035,
+          "prob_under": 0.048965
+        }
+      },
+      {
+        "matchId": 542665,
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-05-13T17:00:00Z",
+        "date": "2026-05-13 17:00:00",
+        "status": "TIMED",
+        "matchday": 29,
+        "bucket": "upcoming",
+        "home_team": "Brest",
+        "away_team": "Strasbourg",
+        "home_team_crest": "https://crests.football-data.org/512.png",
+        "away_team_crest": "https://crests.football-data.org/576.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.677217,
+          "prob_over": 0.322783,
+          "prob_under": 0.677217
+        }
+      },
+      {
+        "matchId": 538091,
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-05-13T19:00:00Z",
+        "date": "2026-05-13 19:00:00",
+        "status": "TIMED",
+        "matchday": 31,
+        "bucket": "upcoming",
+        "home_team": "Man City",
+        "away_team": "Crystal Palace",
+        "home_team_crest": "https://crests.football-data.org/65.png",
+        "away_team_crest": "https://crests.football-data.org/354.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.545445,
+          "prob_over": 0.454555,
+          "prob_under": 0.545445
+        }
+      },
+      {
+        "matchId": 542664,
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-05-13T19:00:00Z",
+        "date": "2026-05-13 19:00:00",
+        "status": "TIMED",
+        "matchday": 29,
+        "bucket": "upcoming",
+        "home_team": "Lens",
+        "away_team": "Paris SG",
+        "home_team_crest": "https://crests.football-data.org/546.png",
+        "away_team_crest": "https://crests.football-data.org/524.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.909336,
+          "prob_over": 0.909336,
+          "prob_under": 0.090664
+        }
+      },
+      {
+        "matchId": 544561,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-05-13T19:30:00Z",
+        "date": "2026-05-13 19:30:00",
+        "status": "TIMED",
+        "matchday": 36,
+        "bucket": "upcoming",
+        "home_team": "Alaves",
+        "away_team": "Barcelona",
+        "home_team_crest": "https://crests.football-data.org/263.png",
+        "away_team_crest": "https://crests.football-data.org/81.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.562861,
+          "prob_over": 0.562861,
+          "prob_under": 0.437139
+        }
+      },
+      {
+        "matchId": 544564,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-05-13T19:30:00Z",
+        "date": "2026-05-13 19:30:00",
+        "status": "TIMED",
+        "matchday": 36,
+        "bucket": "upcoming",
+        "home_team": "Getafe",
+        "away_team": "Mallorca",
+        "home_team_crest": "https://crests.football-data.org/82.png",
+        "away_team_crest": "https://crests.football-data.org/89.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.941118,
+          "prob_over": 0.058882,
+          "prob_under": 0.941118
         }
       }
     ]
