@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T02:05:21Z",
+  "generatedAt": "2026-05-08T02:11:53Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -33,7 +33,7 @@
       "date": "2026-05-08 18:30:00",
       "status": "TIMED",
       "matchday": 33,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Dortmund",
       "away_team": "Ein Frankfurt",
       "home_team_crest": "https://crests.football-data.org/4.png",
@@ -55,7 +55,7 @@
       "date": "2026-05-08 18:45:00",
       "status": "TIMED",
       "matchday": 33,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Lens",
       "away_team": "Nantes",
       "home_team_crest": "https://crests.football-data.org/546.png",
@@ -1039,8 +1039,7 @@
   ],
   "buckets": {
     "yesterday": [],
-    "today": [],
-    "upcoming": [
+    "today": [
       {
         "matchId": 540696,
         "league": "D1",
@@ -1050,7 +1049,7 @@
         "date": "2026-05-08 18:30:00",
         "status": "TIMED",
         "matchday": 33,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Dortmund",
         "away_team": "Ein Frankfurt",
         "home_team_crest": "https://crests.football-data.org/4.png",
@@ -1072,7 +1071,7 @@
         "date": "2026-05-08 18:45:00",
         "status": "TIMED",
         "matchday": 33,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Lens",
         "away_team": "Nantes",
         "home_team_crest": "https://crests.football-data.org/546.png",
@@ -1084,7 +1083,9 @@
           "prob_over": 0.415412,
           "prob_under": 0.584588
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 538140,
         "league": "E0",
