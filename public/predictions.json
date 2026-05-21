@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T02:32:43Z",
+  "generatedAt": "2026-05-21T02:33:30Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -24,50 +24,6 @@
     }
   },
   "matches": [
-    {
-      "matchId": 538145,
-      "league": "E0",
-      "competitionName": "Premier League",
-      "competitionCrest": "https://crests.football-data.org/PL.png",
-      "utcDate": "2026-05-19T18:30:00Z",
-      "date": "2026-05-19 18:30:00",
-      "status": "FINISHED",
-      "matchday": 37,
-      "bucket": "yesterday",
-      "home_team": "Bournemouth",
-      "away_team": "Man City",
-      "home_team_crest": "https://crests.football-data.org/bournemouth.png",
-      "away_team_crest": "https://crests.football-data.org/65.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.83956,
-        "prob_over": 0.16044,
-        "prob_under": 0.83956
-      }
-    },
-    {
-      "matchId": 538149,
-      "league": "E0",
-      "competitionName": "Premier League",
-      "competitionCrest": "https://crests.football-data.org/PL.png",
-      "utcDate": "2026-05-19T19:15:00Z",
-      "date": "2026-05-19 19:15:00",
-      "status": "FINISHED",
-      "matchday": 37,
-      "bucket": "yesterday",
-      "home_team": "Chelsea",
-      "away_team": "Tottenham",
-      "home_team_crest": "https://crests.football-data.org/61.png",
-      "away_team_crest": "https://crests.football-data.org/73.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.609349,
-        "prob_over": 0.390651,
-        "prob_under": 0.609349
-      }
-    },
     {
       "matchId": 537185,
       "league": "I1",
@@ -532,52 +488,7 @@
     }
   ],
   "buckets": {
-    "yesterday": [
-      {
-        "matchId": 538145,
-        "league": "E0",
-        "competitionName": "Premier League",
-        "competitionCrest": "https://crests.football-data.org/PL.png",
-        "utcDate": "2026-05-19T18:30:00Z",
-        "date": "2026-05-19 18:30:00",
-        "status": "FINISHED",
-        "matchday": 37,
-        "bucket": "yesterday",
-        "home_team": "Bournemouth",
-        "away_team": "Man City",
-        "home_team_crest": "https://crests.football-data.org/bournemouth.png",
-        "away_team_crest": "https://crests.football-data.org/65.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.83956,
-          "prob_over": 0.16044,
-          "prob_under": 0.83956
-        }
-      },
-      {
-        "matchId": 538149,
-        "league": "E0",
-        "competitionName": "Premier League",
-        "competitionCrest": "https://crests.football-data.org/PL.png",
-        "utcDate": "2026-05-19T19:15:00Z",
-        "date": "2026-05-19 19:15:00",
-        "status": "FINISHED",
-        "matchday": 37,
-        "bucket": "yesterday",
-        "home_team": "Chelsea",
-        "away_team": "Tottenham",
-        "home_team_crest": "https://crests.football-data.org/61.png",
-        "away_team_crest": "https://crests.football-data.org/73.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.609349,
-          "prob_over": 0.390651,
-          "prob_under": 0.609349
-        }
-      }
-    ],
+    "yesterday": [],
     "today": [],
     "upcoming": [
       {
