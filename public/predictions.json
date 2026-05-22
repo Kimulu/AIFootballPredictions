@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T02:33:30Z",
+  "generatedAt": "2026-05-22T02:35:12Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -33,7 +33,7 @@
       "date": "2026-05-22 18:45:00",
       "status": "TIMED",
       "matchday": 38,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Fiorentina",
       "away_team": "Atalanta",
       "home_team_crest": "https://crests.football-data.org/99.png",
@@ -489,8 +489,7 @@
   ],
   "buckets": {
     "yesterday": [],
-    "today": [],
-    "upcoming": [
+    "today": [
       {
         "matchId": 537185,
         "league": "I1",
@@ -500,7 +499,7 @@
         "date": "2026-05-22 18:45:00",
         "status": "TIMED",
         "matchday": 38,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Fiorentina",
         "away_team": "Atalanta",
         "home_team_crest": "https://crests.football-data.org/99.png",
@@ -512,7 +511,9 @@
           "prob_over": 0.150775,
           "prob_under": 0.849225
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 537187,
         "league": "I1",
