@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T02:35:12Z",
+  "generatedAt": "2026-05-23T02:11:53Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -31,9 +31,9 @@
       "competitionCrest": "https://crests.football-data.org/SA.png",
       "utcDate": "2026-05-22T18:45:00Z",
       "date": "2026-05-22 18:45:00",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 38,
-      "bucket": "today",
+      "bucket": "yesterday",
       "home_team": "Fiorentina",
       "away_team": "Atalanta",
       "home_team_crest": "https://crests.football-data.org/99.png",
@@ -55,7 +55,7 @@
       "date": "2026-05-23 16:00:00",
       "status": "TIMED",
       "matchday": 38,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Bologna",
       "away_team": "Inter",
       "home_team_crest": "https://crests.football-data.org/103.png",
@@ -77,7 +77,7 @@
       "date": "2026-05-23 19:00:00",
       "status": "TIMED",
       "matchday": 38,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Alaves",
       "away_team": "Vallecano",
       "home_team_crest": "https://crests.football-data.org/263.png",
@@ -99,7 +99,7 @@
       "date": "2026-05-23 19:00:00",
       "status": "TIMED",
       "matchday": 38,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Celta",
       "away_team": "Sevilla",
       "home_team_crest": "https://crests.football-data.org/558.png",
@@ -121,7 +121,7 @@
       "date": "2026-05-23 19:00:00",
       "status": "TIMED",
       "matchday": 38,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Espanol",
       "away_team": "Sociedad",
       "home_team_crest": "https://crests.football-data.org/80.png",
@@ -143,7 +143,7 @@
       "date": "2026-05-23 19:00:00",
       "status": "TIMED",
       "matchday": 38,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Getafe",
       "away_team": "Osasuna",
       "home_team_crest": "https://crests.football-data.org/82.png",
@@ -165,7 +165,7 @@
       "date": "2026-05-23 19:00:00",
       "status": "TIMED",
       "matchday": 38,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Real Madrid",
       "away_team": "Ath Bilbao",
       "home_team_crest": "https://crests.football-data.org/86.png",
@@ -187,7 +187,7 @@
       "date": "2026-05-23 19:00:00",
       "status": "TIMED",
       "matchday": 38,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Valencia",
       "away_team": "Barcelona",
       "home_team_crest": "https://crests.football-data.org/95.png",
@@ -488,8 +488,7 @@
     }
   ],
   "buckets": {
-    "yesterday": [],
-    "today": [
+    "yesterday": [
       {
         "matchId": 537185,
         "league": "I1",
@@ -497,9 +496,9 @@
         "competitionCrest": "https://crests.football-data.org/SA.png",
         "utcDate": "2026-05-22T18:45:00Z",
         "date": "2026-05-22 18:45:00",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 38,
-        "bucket": "today",
+        "bucket": "yesterday",
         "home_team": "Fiorentina",
         "away_team": "Atalanta",
         "home_team_crest": "https://crests.football-data.org/99.png",
@@ -513,7 +512,7 @@
         }
       }
     ],
-    "upcoming": [
+    "today": [
       {
         "matchId": 537187,
         "league": "I1",
@@ -523,7 +522,7 @@
         "date": "2026-05-23 16:00:00",
         "status": "TIMED",
         "matchday": 38,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Bologna",
         "away_team": "Inter",
         "home_team_crest": "https://crests.football-data.org/103.png",
@@ -545,7 +544,7 @@
         "date": "2026-05-23 19:00:00",
         "status": "TIMED",
         "matchday": 38,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Alaves",
         "away_team": "Vallecano",
         "home_team_crest": "https://crests.football-data.org/263.png",
@@ -567,7 +566,7 @@
         "date": "2026-05-23 19:00:00",
         "status": "TIMED",
         "matchday": 38,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Celta",
         "away_team": "Sevilla",
         "home_team_crest": "https://crests.football-data.org/558.png",
@@ -589,7 +588,7 @@
         "date": "2026-05-23 19:00:00",
         "status": "TIMED",
         "matchday": 38,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Espanol",
         "away_team": "Sociedad",
         "home_team_crest": "https://crests.football-data.org/80.png",
@@ -611,7 +610,7 @@
         "date": "2026-05-23 19:00:00",
         "status": "TIMED",
         "matchday": 38,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Getafe",
         "away_team": "Osasuna",
         "home_team_crest": "https://crests.football-data.org/82.png",
@@ -633,7 +632,7 @@
         "date": "2026-05-23 19:00:00",
         "status": "TIMED",
         "matchday": 38,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Real Madrid",
         "away_team": "Ath Bilbao",
         "home_team_crest": "https://crests.football-data.org/86.png",
@@ -655,7 +654,7 @@
         "date": "2026-05-23 19:00:00",
         "status": "TIMED",
         "matchday": 38,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Valencia",
         "away_team": "Barcelona",
         "home_team_crest": "https://crests.football-data.org/95.png",
@@ -667,7 +666,9 @@
           "prob_over": 0.933984,
           "prob_under": 0.066016
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 538156,
         "league": "E0",
