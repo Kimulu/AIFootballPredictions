@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T00:43:48Z",
+  "generatedAt": "2026-08-18T00:43:11Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -595,6 +595,28 @@
         "prob_over": 0.667322,
         "prob_under": 0.332678
       }
+    },
+    {
+      "matchId": 564637,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-08-25T19:00:00Z",
+      "date": "2026-08-25 19:00:00",
+      "status": "TIMED",
+      "matchday": 1,
+      "bucket": "upcoming",
+      "home_team": "Valencia",
+      "away_team": "Betis",
+      "home_team_crest": "https://crests.football-data.org/95.png",
+      "away_team_crest": "https://crests.football-data.org/90.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.665626,
+        "prob_over": 0.665626,
+        "prob_under": 0.334374
+      }
     }
   ],
   "buckets": {
@@ -1171,6 +1193,28 @@
           "confidence": 0.667322,
           "prob_over": 0.667322,
           "prob_under": 0.332678
+        }
+      },
+      {
+        "matchId": 564637,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-08-25T19:00:00Z",
+        "date": "2026-08-25 19:00:00",
+        "status": "TIMED",
+        "matchday": 1,
+        "bucket": "upcoming",
+        "home_team": "Valencia",
+        "away_team": "Betis",
+        "home_team_crest": "https://crests.football-data.org/95.png",
+        "away_team_crest": "https://crests.football-data.org/90.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.665626,
+          "prob_over": 0.665626,
+          "prob_under": 0.334374
         }
       }
     ]
