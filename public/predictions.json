@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T00:43:11Z",
+  "generatedAt": "2026-08-19T00:43:37Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -53,7 +53,7 @@
       "competitionCrest": "https://crests.football-data.org/FL1.png",
       "utcDate": "2026-08-21T18:45:00Z",
       "date": "2026-08-21 18:45:00",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 1,
       "bucket": "upcoming",
       "home_team": "Marseille",
@@ -141,7 +141,7 @@
       "competitionCrest": "https://crests.football-data.org/FL1.png",
       "utcDate": "2026-08-22T15:15:00Z",
       "date": "2026-08-22 15:15:00",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 1,
       "bucket": "upcoming",
       "home_team": "Lens",
@@ -295,7 +295,7 @@
       "competitionCrest": "https://crests.football-data.org/FL1.png",
       "utcDate": "2026-08-22T18:45:00Z",
       "date": "2026-08-22 18:45:00",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 1,
       "bucket": "upcoming",
       "home_team": "Toulouse",
@@ -383,7 +383,7 @@
       "competitionCrest": "https://crests.football-data.org/FL1.png",
       "utcDate": "2026-08-23T13:00:00Z",
       "date": "2026-08-23 13:00:00",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 1,
       "bucket": "upcoming",
       "home_team": "Angers",
@@ -427,7 +427,7 @@
       "competitionCrest": "https://crests.football-data.org/FL1.png",
       "utcDate": "2026-08-23T15:15:00Z",
       "date": "2026-08-23 15:15:00",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 1,
       "bucket": "upcoming",
       "home_team": "Le Havre",
@@ -515,7 +515,7 @@
       "competitionCrest": "https://crests.football-data.org/FL1.png",
       "utcDate": "2026-08-23T18:45:00Z",
       "date": "2026-08-23 18:45:00",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 1,
       "bucket": "upcoming",
       "home_team": "Paris SG",
@@ -617,6 +617,28 @@
         "prob_over": 0.665626,
         "prob_under": 0.334374
       }
+    },
+    {
+      "matchId": 564631,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-08-26T19:00:00Z",
+      "date": "2026-08-26 19:00:00",
+      "status": "TIMED",
+      "matchday": 1,
+      "bucket": "upcoming",
+      "home_team": "Real Madrid",
+      "away_team": "Sociedad",
+      "home_team_crest": "https://crests.football-data.org/86.png",
+      "away_team_crest": "https://crests.football-data.org/92.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.617407,
+        "prob_over": 0.617407,
+        "prob_under": 0.382593
+      }
     }
   ],
   "buckets": {
@@ -652,7 +674,7 @@
         "competitionCrest": "https://crests.football-data.org/FL1.png",
         "utcDate": "2026-08-21T18:45:00Z",
         "date": "2026-08-21 18:45:00",
-        "status": "SCHEDULED",
+        "status": "TIMED",
         "matchday": 1,
         "bucket": "upcoming",
         "home_team": "Marseille",
@@ -740,7 +762,7 @@
         "competitionCrest": "https://crests.football-data.org/FL1.png",
         "utcDate": "2026-08-22T15:15:00Z",
         "date": "2026-08-22 15:15:00",
-        "status": "SCHEDULED",
+        "status": "TIMED",
         "matchday": 1,
         "bucket": "upcoming",
         "home_team": "Lens",
@@ -894,7 +916,7 @@
         "competitionCrest": "https://crests.football-data.org/FL1.png",
         "utcDate": "2026-08-22T18:45:00Z",
         "date": "2026-08-22 18:45:00",
-        "status": "SCHEDULED",
+        "status": "TIMED",
         "matchday": 1,
         "bucket": "upcoming",
         "home_team": "Toulouse",
@@ -982,7 +1004,7 @@
         "competitionCrest": "https://crests.football-data.org/FL1.png",
         "utcDate": "2026-08-23T13:00:00Z",
         "date": "2026-08-23 13:00:00",
-        "status": "SCHEDULED",
+        "status": "TIMED",
         "matchday": 1,
         "bucket": "upcoming",
         "home_team": "Angers",
@@ -1026,7 +1048,7 @@
         "competitionCrest": "https://crests.football-data.org/FL1.png",
         "utcDate": "2026-08-23T15:15:00Z",
         "date": "2026-08-23 15:15:00",
-        "status": "SCHEDULED",
+        "status": "TIMED",
         "matchday": 1,
         "bucket": "upcoming",
         "home_team": "Le Havre",
@@ -1114,7 +1136,7 @@
         "competitionCrest": "https://crests.football-data.org/FL1.png",
         "utcDate": "2026-08-23T18:45:00Z",
         "date": "2026-08-23 18:45:00",
-        "status": "SCHEDULED",
+        "status": "TIMED",
         "matchday": 1,
         "bucket": "upcoming",
         "home_team": "Paris SG",
@@ -1215,6 +1237,28 @@
           "confidence": 0.665626,
           "prob_over": 0.665626,
           "prob_under": 0.334374
+        }
+      },
+      {
+        "matchId": 564631,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-08-26T19:00:00Z",
+        "date": "2026-08-26 19:00:00",
+        "status": "TIMED",
+        "matchday": 1,
+        "bucket": "upcoming",
+        "home_team": "Real Madrid",
+        "away_team": "Sociedad",
+        "home_team_crest": "https://crests.football-data.org/86.png",
+        "away_team_crest": "https://crests.football-data.org/92.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.617407,
+          "prob_over": 0.617407,
+          "prob_under": 0.382593
         }
       }
     ]
