@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T00:45:39Z",
+  "generatedAt": "2026-08-27T05:56:27Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -25,37 +25,15 @@
   },
   "matches": [
     {
-      "matchId": 564637,
-      "league": "SP1",
-      "competitionName": "La Liga",
-      "competitionCrest": "https://crests.football-data.org/PD.png",
-      "utcDate": "2026-08-25T19:00:00Z",
-      "date": "2026-08-25 19:00:00",
-      "status": "FINISHED",
-      "matchday": 1,
-      "bucket": "yesterday",
-      "home_team": "Valencia",
-      "away_team": "Betis",
-      "home_team_crest": "https://crests.football-data.org/95.png",
-      "away_team_crest": "https://crests.football-data.org/90.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "OVER",
-        "confidence": 0.665626,
-        "prob_over": 0.665626,
-        "prob_under": 0.334374
-      }
-    },
-    {
       "matchId": 564631,
       "league": "SP1",
       "competitionName": "La Liga",
       "competitionCrest": "https://crests.football-data.org/PD.png",
       "utcDate": "2026-08-26T19:00:00Z",
       "date": "2026-08-26 19:00:00",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 1,
-      "bucket": "today",
+      "bucket": "yesterday",
       "home_team": "Real Madrid",
       "away_team": "Sociedad",
       "home_team_crest": "https://crests.football-data.org/86.png",
@@ -77,7 +55,7 @@
       "date": "2026-08-27 18:30:00",
       "status": "TIMED",
       "matchday": 1,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Celta",
       "away_team": "Osasuna",
       "home_team_crest": "https://crests.football-data.org/558.png",
@@ -99,7 +77,7 @@
       "date": "2026-08-27 19:00:00",
       "status": "TIMED",
       "matchday": 1,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Barcelona",
       "away_team": "Ath Bilbao",
       "home_team_crest": "https://crests.football-data.org/81.png",
@@ -793,34 +771,54 @@
         "prob_over": 0.624346,
         "prob_under": 0.375654
       }
+    },
+    {
+      "matchId": 559696,
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-09-03T18:45:00Z",
+      "date": "2026-09-03 18:45:00",
+      "status": "TIMED",
+      "matchday": 3,
+      "bucket": "upcoming",
+      "home_team": "Toulouse",
+      "away_team": "Lille",
+      "home_team_crest": "https://crests.football-data.org/511.png",
+      "away_team_crest": "https://crests.football-data.org/521.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.51197,
+        "prob_over": 0.51197,
+        "prob_under": 0.48803
+      }
+    },
+    {
+      "matchId": 564682,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-09-03T19:00:00Z",
+      "date": "2026-09-03 19:00:00",
+      "status": "TIMED",
+      "matchday": 6,
+      "bucket": "upcoming",
+      "home_team": "Sociedad",
+      "away_team": "Celta",
+      "home_team_crest": "https://crests.football-data.org/92.png",
+      "away_team_crest": "https://crests.football-data.org/558.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.658817,
+        "prob_over": 0.341183,
+        "prob_under": 0.658817
+      }
     }
   ],
   "buckets": {
     "yesterday": [
-      {
-        "matchId": 564637,
-        "league": "SP1",
-        "competitionName": "La Liga",
-        "competitionCrest": "https://crests.football-data.org/PD.png",
-        "utcDate": "2026-08-25T19:00:00Z",
-        "date": "2026-08-25 19:00:00",
-        "status": "FINISHED",
-        "matchday": 1,
-        "bucket": "yesterday",
-        "home_team": "Valencia",
-        "away_team": "Betis",
-        "home_team_crest": "https://crests.football-data.org/95.png",
-        "away_team_crest": "https://crests.football-data.org/90.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "OVER",
-          "confidence": 0.665626,
-          "prob_over": 0.665626,
-          "prob_under": 0.334374
-        }
-      }
-    ],
-    "today": [
       {
         "matchId": 564631,
         "league": "SP1",
@@ -828,9 +826,9 @@
         "competitionCrest": "https://crests.football-data.org/PD.png",
         "utcDate": "2026-08-26T19:00:00Z",
         "date": "2026-08-26 19:00:00",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 1,
-        "bucket": "today",
+        "bucket": "yesterday",
         "home_team": "Real Madrid",
         "away_team": "Sociedad",
         "home_team_crest": "https://crests.football-data.org/86.png",
@@ -844,7 +842,7 @@
         }
       }
     ],
-    "upcoming": [
+    "today": [
       {
         "matchId": 564636,
         "league": "SP1",
@@ -854,7 +852,7 @@
         "date": "2026-08-27 18:30:00",
         "status": "TIMED",
         "matchday": 1,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Celta",
         "away_team": "Osasuna",
         "home_team_crest": "https://crests.football-data.org/558.png",
@@ -876,7 +874,7 @@
         "date": "2026-08-27 19:00:00",
         "status": "TIMED",
         "matchday": 1,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Barcelona",
         "away_team": "Ath Bilbao",
         "home_team_crest": "https://crests.football-data.org/81.png",
@@ -888,7 +886,9 @@
           "prob_over": 0.972519,
           "prob_under": 0.027481
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 565776,
         "league": "D1",
@@ -1569,6 +1569,50 @@
           "confidence": 0.624346,
           "prob_over": 0.624346,
           "prob_under": 0.375654
+        }
+      },
+      {
+        "matchId": 559696,
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-09-03T18:45:00Z",
+        "date": "2026-09-03 18:45:00",
+        "status": "TIMED",
+        "matchday": 3,
+        "bucket": "upcoming",
+        "home_team": "Toulouse",
+        "away_team": "Lille",
+        "home_team_crest": "https://crests.football-data.org/511.png",
+        "away_team_crest": "https://crests.football-data.org/521.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.51197,
+          "prob_over": 0.51197,
+          "prob_under": 0.48803
+        }
+      },
+      {
+        "matchId": 564682,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-09-03T19:00:00Z",
+        "date": "2026-09-03 19:00:00",
+        "status": "TIMED",
+        "matchday": 6,
+        "bucket": "upcoming",
+        "home_team": "Sociedad",
+        "away_team": "Celta",
+        "home_team_crest": "https://crests.football-data.org/92.png",
+        "away_team_crest": "https://crests.football-data.org/558.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.658817,
+          "prob_over": 0.341183,
+          "prob_under": 0.658817
         }
       }
     ]
