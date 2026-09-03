@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T02:07:21Z",
+  "generatedAt": "2026-09-03T02:13:33Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -33,7 +33,7 @@
       "date": "2026-09-03 18:45:00",
       "status": "TIMED",
       "matchday": 3,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Toulouse",
       "away_team": "Lille",
       "home_team_crest": "https://crests.football-data.org/511.png",
@@ -55,7 +55,7 @@
       "date": "2026-09-03 19:00:00",
       "status": "TIMED",
       "matchday": 6,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Sociedad",
       "away_team": "Celta",
       "home_team_crest": "https://crests.football-data.org/92.png",
@@ -687,8 +687,7 @@
   ],
   "buckets": {
     "yesterday": [],
-    "today": [],
-    "upcoming": [
+    "today": [
       {
         "matchId": 559696,
         "league": "F1",
@@ -698,7 +697,7 @@
         "date": "2026-09-03 18:45:00",
         "status": "TIMED",
         "matchday": 3,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Toulouse",
         "away_team": "Lille",
         "home_team_crest": "https://crests.football-data.org/511.png",
@@ -720,7 +719,7 @@
         "date": "2026-09-03 19:00:00",
         "status": "TIMED",
         "matchday": 6,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Sociedad",
         "away_team": "Celta",
         "home_team_crest": "https://crests.football-data.org/92.png",
@@ -732,7 +731,9 @@
           "prob_over": 0.341183,
           "prob_under": 0.658817
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 559699,
         "league": "F1",
