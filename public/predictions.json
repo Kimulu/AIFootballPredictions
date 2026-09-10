@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T02:17:53Z",
+  "generatedAt": "2026-09-10T02:16:27Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -705,6 +705,28 @@
         "prob_over": 0.093431,
         "prob_under": 0.906569
       }
+    },
+    {
+      "matchId": 564686,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-09-17T17:00:00Z",
+      "date": "2026-09-17 17:00:00",
+      "status": "TIMED",
+      "matchday": 6,
+      "bucket": "upcoming",
+      "home_team": "Betis",
+      "away_team": "Getafe",
+      "home_team_crest": "https://crests.football-data.org/90.png",
+      "away_team_crest": "https://crests.football-data.org/82.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.634991,
+        "prob_over": 0.634991,
+        "prob_under": 0.365009
+      }
     }
   ],
   "buckets": {
@@ -1391,6 +1413,28 @@
           "confidence": 0.906569,
           "prob_over": 0.093431,
           "prob_under": 0.906569
+        }
+      },
+      {
+        "matchId": 564686,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-09-17T17:00:00Z",
+        "date": "2026-09-17 17:00:00",
+        "status": "TIMED",
+        "matchday": 6,
+        "bucket": "upcoming",
+        "home_team": "Betis",
+        "away_team": "Getafe",
+        "home_team_crest": "https://crests.football-data.org/90.png",
+        "away_team_crest": "https://crests.football-data.org/82.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.634991,
+          "prob_over": 0.634991,
+          "prob_under": 0.365009
         }
       }
     ]
