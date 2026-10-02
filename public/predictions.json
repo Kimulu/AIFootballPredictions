@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T03:17:10Z",
+  "generatedAt": "2026-10-02T03:17:25Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -23,10 +23,100 @@
       "crest": "https://crests.football-data.org/FL1.png"
     }
   },
-  "matches": [],
+  "matches": [
+    {
+      "matchId": 565820,
+      "league": "D1",
+      "competitionName": "Bundesliga",
+      "competitionCrest": "https://crests.football-data.org/BL1.png",
+      "utcDate": "2026-10-09T18:30:00Z",
+      "date": "2026-10-09 18:30:00",
+      "status": "TIMED",
+      "matchday": 5,
+      "bucket": "upcoming",
+      "home_team": "Dortmund",
+      "away_team": "Werder Bremen",
+      "home_team_crest": "https://crests.football-data.org/4.png",
+      "away_team_crest": "https://crests.football-data.org/12.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.829302,
+        "prob_over": 0.829302,
+        "prob_under": 0.170698
+      }
+    },
+    {
+      "matchId": 559669,
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-10-09T18:45:00Z",
+      "date": "2026-10-09 18:45:00",
+      "status": "TIMED",
+      "matchday": 6,
+      "bucket": "upcoming",
+      "home_team": "Lens",
+      "away_team": "Lyon",
+      "home_team_crest": "https://crests.football-data.org/546.png",
+      "away_team_crest": "https://crests.football-data.org/523.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.552154,
+        "prob_over": 0.552154,
+        "prob_under": 0.447846
+      }
+    }
+  ],
   "buckets": {
     "yesterday": [],
     "today": [],
-    "upcoming": []
+    "upcoming": [
+      {
+        "matchId": 565820,
+        "league": "D1",
+        "competitionName": "Bundesliga",
+        "competitionCrest": "https://crests.football-data.org/BL1.png",
+        "utcDate": "2026-10-09T18:30:00Z",
+        "date": "2026-10-09 18:30:00",
+        "status": "TIMED",
+        "matchday": 5,
+        "bucket": "upcoming",
+        "home_team": "Dortmund",
+        "away_team": "Werder Bremen",
+        "home_team_crest": "https://crests.football-data.org/4.png",
+        "away_team_crest": "https://crests.football-data.org/12.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.829302,
+          "prob_over": 0.829302,
+          "prob_under": 0.170698
+        }
+      },
+      {
+        "matchId": 559669,
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-10-09T18:45:00Z",
+        "date": "2026-10-09 18:45:00",
+        "status": "TIMED",
+        "matchday": 6,
+        "bucket": "upcoming",
+        "home_team": "Lens",
+        "away_team": "Lyon",
+        "home_team_crest": "https://crests.football-data.org/546.png",
+        "away_team_crest": "https://crests.football-data.org/523.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.552154,
+          "prob_over": 0.552154,
+          "prob_under": 0.447846
+        }
+      }
+    ]
   }
 }
