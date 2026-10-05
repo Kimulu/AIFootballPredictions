@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T03:32:46Z",
+  "generatedAt": "2026-10-05T03:12:04Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -617,6 +617,50 @@
         "prob_over": 0.051409,
         "prob_under": 0.948591
       }
+    },
+    {
+      "matchId": 558579,
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-10-12T16:30:00Z",
+      "date": "2026-10-12 16:30:00",
+      "status": "TIMED",
+      "matchday": 6,
+      "bucket": "upcoming",
+      "home_team": "Atalanta",
+      "away_team": "Venezia",
+      "home_team_crest": "https://crests.football-data.org/102.png",
+      "away_team_crest": "https://crests.football-data.org/454.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.607047,
+        "prob_over": 0.607047,
+        "prob_under": 0.392953
+      }
+    },
+    {
+      "matchId": 558587,
+      "league": "I1",
+      "competitionName": "Serie A",
+      "competitionCrest": "https://crests.football-data.org/SA.png",
+      "utcDate": "2026-10-12T18:45:00Z",
+      "date": "2026-10-12 18:45:00",
+      "status": "TIMED",
+      "matchday": 6,
+      "bucket": "upcoming",
+      "home_team": "Torino",
+      "away_team": "Udinese",
+      "home_team_crest": "https://crests.football-data.org/586.png",
+      "away_team_crest": "https://crests.football-data.org/115.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.868264,
+        "prob_over": 0.868264,
+        "prob_under": 0.131736
+      }
     }
   ],
   "buckets": {
@@ -1215,6 +1259,50 @@
           "confidence": 0.948591,
           "prob_over": 0.051409,
           "prob_under": 0.948591
+        }
+      },
+      {
+        "matchId": 558579,
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-10-12T16:30:00Z",
+        "date": "2026-10-12 16:30:00",
+        "status": "TIMED",
+        "matchday": 6,
+        "bucket": "upcoming",
+        "home_team": "Atalanta",
+        "away_team": "Venezia",
+        "home_team_crest": "https://crests.football-data.org/102.png",
+        "away_team_crest": "https://crests.football-data.org/454.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.607047,
+          "prob_over": 0.607047,
+          "prob_under": 0.392953
+        }
+      },
+      {
+        "matchId": 558587,
+        "league": "I1",
+        "competitionName": "Serie A",
+        "competitionCrest": "https://crests.football-data.org/SA.png",
+        "utcDate": "2026-10-12T18:45:00Z",
+        "date": "2026-10-12 18:45:00",
+        "status": "TIMED",
+        "matchday": 6,
+        "bucket": "upcoming",
+        "home_team": "Torino",
+        "away_team": "Udinese",
+        "home_team_crest": "https://crests.football-data.org/586.png",
+        "away_team_crest": "https://crests.football-data.org/115.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.868264,
+          "prob_over": 0.868264,
+          "prob_under": 0.131736
         }
       }
     ]
