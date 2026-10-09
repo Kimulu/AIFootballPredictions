@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T03:42:59Z",
+  "generatedAt": "2026-10-09T03:48:09Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -33,7 +33,7 @@
       "date": "2026-10-09 18:30:00",
       "status": "TIMED",
       "matchday": 5,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Dortmund",
       "away_team": "Werder Bremen",
       "home_team_crest": "https://crests.football-data.org/4.png",
@@ -55,7 +55,7 @@
       "date": "2026-10-09 18:45:00",
       "status": "TIMED",
       "matchday": 6,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Lens",
       "away_team": "Lyon",
       "home_team_crest": "https://crests.football-data.org/546.png",
@@ -665,8 +665,7 @@
   ],
   "buckets": {
     "yesterday": [],
-    "today": [],
-    "upcoming": [
+    "today": [
       {
         "matchId": 565820,
         "league": "D1",
@@ -676,7 +675,7 @@
         "date": "2026-10-09 18:30:00",
         "status": "TIMED",
         "matchday": 5,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Dortmund",
         "away_team": "Werder Bremen",
         "home_team_crest": "https://crests.football-data.org/4.png",
@@ -698,7 +697,7 @@
         "date": "2026-10-09 18:45:00",
         "status": "TIMED",
         "matchday": 6,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Lens",
         "away_team": "Lyon",
         "home_team_crest": "https://crests.football-data.org/546.png",
@@ -710,7 +709,9 @@
           "prob_over": 0.552154,
           "prob_under": 0.447846
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 564698,
         "league": "SP1",
