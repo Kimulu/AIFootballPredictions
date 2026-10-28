@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T03:02:20Z",
+  "generatedAt": "2026-10-28T03:13:21Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -25,59 +25,15 @@
   },
   "matches": [
     {
-      "matchId": 559648,
-      "league": "F1",
-      "competitionName": "Ligue 1",
-      "competitionCrest": "https://crests.football-data.org/FL1.png",
-      "utcDate": "2026-10-26T19:30:00Z",
-      "date": "2026-10-26 19:30:00",
-      "status": "FINISHED",
-      "matchday": 8,
-      "bucket": "yesterday",
-      "home_team": "Paris SG",
-      "away_team": "Lyon",
-      "home_team_crest": "https://crests.football-data.org/524.png",
-      "away_team_crest": "https://crests.football-data.org/523.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "OVER",
-        "confidence": 0.654185,
-        "prob_over": 0.654185,
-        "prob_under": 0.345815
-      }
-    },
-    {
-      "matchId": 564721,
-      "league": "SP1",
-      "competitionName": "La Liga",
-      "competitionCrest": "https://crests.football-data.org/PD.png",
-      "utcDate": "2026-10-26T20:00:00Z",
-      "date": "2026-10-26 20:00:00",
-      "status": "FINISHED",
-      "matchday": 10,
-      "bucket": "yesterday",
-      "home_team": "Sevilla",
-      "away_team": "Osasuna",
-      "home_team_crest": "https://crests.football-data.org/559.png",
-      "away_team_crest": "https://crests.football-data.org/79.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.969695,
-        "prob_over": 0.030305,
-        "prob_under": 0.969695
-      }
-    },
-    {
       "matchId": 558555,
       "league": "I1",
       "competitionName": "Serie A",
       "competitionCrest": "https://crests.football-data.org/SA.png",
       "utcDate": "2026-10-27T19:45:00Z",
       "date": "2026-10-27 19:45:00",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 9,
-      "bucket": "today",
+      "bucket": "yesterday",
       "home_team": "Roma",
       "away_team": "Cagliari",
       "home_team_crest": "https://crests.football-data.org/100.png",
@@ -97,9 +53,9 @@
       "competitionCrest": "https://crests.football-data.org/SA.png",
       "utcDate": "2026-10-27T19:45:00Z",
       "date": "2026-10-27 19:45:00",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 9,
-      "bucket": "today",
+      "bucket": "yesterday",
       "home_team": "Torino",
       "away_team": "Como",
       "home_team_crest": "https://crests.football-data.org/586.png",
@@ -121,7 +77,7 @@
       "date": "2026-10-28 17:30:00",
       "status": "TIMED",
       "matchday": 9,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Milan",
       "away_team": "Bologna",
       "home_team_crest": "https://crests.football-data.org/98.png",
@@ -143,7 +99,7 @@
       "date": "2026-10-28 17:30:00",
       "status": "TIMED",
       "matchday": 9,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Venezia",
       "away_team": "Inter",
       "home_team_crest": "https://crests.football-data.org/454.png",
@@ -165,7 +121,7 @@
       "date": "2026-10-28 17:30:00",
       "status": "TIMED",
       "matchday": 9,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Parma",
       "away_team": "Udinese",
       "home_team_crest": "https://crests.football-data.org/112.png",
@@ -187,7 +143,7 @@
       "date": "2026-10-28 19:45:00",
       "status": "TIMED",
       "matchday": 9,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Genoa",
       "away_team": "Juventus",
       "home_team_crest": "https://crests.football-data.org/107.png",
@@ -209,7 +165,7 @@
       "date": "2026-10-28 19:45:00",
       "status": "TIMED",
       "matchday": 9,
-      "bucket": "upcoming",
+      "bucket": "today",
       "home_team": "Monza",
       "away_team": "Napoli",
       "home_team_crest": "https://crests.football-data.org/5911.png",
@@ -264,6 +220,28 @@
         "confidence": 0.927728,
         "prob_over": 0.927728,
         "prob_under": 0.072272
+      }
+    },
+    {
+      "matchId": 559646,
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-10-30T18:00:00Z",
+      "date": "2026-10-30 18:00:00",
+      "status": "TIMED",
+      "matchday": 9,
+      "bucket": "upcoming",
+      "home_team": "Nice",
+      "away_team": "Rennes",
+      "home_team_crest": "https://crests.football-data.org/522.png",
+      "away_team_crest": "https://crests.football-data.org/529.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "UNDER",
+        "confidence": 0.855538,
+        "prob_over": 0.144462,
+        "prob_under": 0.855538
       }
     },
     {
@@ -487,28 +465,6 @@
       }
     },
     {
-      "matchId": 559646,
-      "league": "F1",
-      "competitionName": "Ligue 1",
-      "competitionCrest": "https://crests.football-data.org/FL1.png",
-      "utcDate": "2026-10-31T16:15:00Z",
-      "date": "2026-10-31 16:15:00",
-      "status": "TIMED",
-      "matchday": 9,
-      "bucket": "upcoming",
-      "home_team": "Nice",
-      "away_team": "Rennes",
-      "home_team_crest": "https://crests.football-data.org/522.png",
-      "away_team_crest": "https://crests.football-data.org/529.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.855538,
-        "prob_over": 0.144462,
-        "prob_under": 0.855538
-      }
-    },
-    {
       "matchId": 558542,
       "league": "I1",
       "competitionName": "Serie A",
@@ -594,28 +550,6 @@
         "confidence": 0.968303,
         "prob_over": 0.968303,
         "prob_under": 0.031697
-      }
-    },
-    {
-      "matchId": 559640,
-      "league": "F1",
-      "competitionName": "Ligue 1",
-      "competitionCrest": "https://crests.football-data.org/FL1.png",
-      "utcDate": "2026-10-31T19:45:00Z",
-      "date": "2026-10-31 19:45:00",
-      "status": "TIMED",
-      "matchday": 9,
-      "bucket": "upcoming",
-      "home_team": "Lyon",
-      "away_team": "Angers",
-      "home_team_crest": "https://crests.football-data.org/523.png",
-      "away_team_crest": "https://crests.football-data.org/532.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "OVER",
-        "confidence": 0.960013,
-        "prob_over": 0.960013,
-        "prob_under": 0.039987
       }
     },
     {
@@ -748,6 +682,28 @@
         "confidence": 0.931516,
         "prob_over": 0.931516,
         "prob_under": 0.068484
+      }
+    },
+    {
+      "matchId": 559640,
+      "league": "F1",
+      "competitionName": "Ligue 1",
+      "competitionCrest": "https://crests.football-data.org/FL1.png",
+      "utcDate": "2026-11-01T16:15:00Z",
+      "date": "2026-11-01 16:15:00",
+      "status": "TIMED",
+      "matchday": 9,
+      "bucket": "upcoming",
+      "home_team": "Lyon",
+      "away_team": "Angers",
+      "home_team_crest": "https://crests.football-data.org/523.png",
+      "away_team_crest": "https://crests.football-data.org/532.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.960013,
+        "prob_over": 0.960013,
+        "prob_under": 0.039987
       }
     },
     {
@@ -908,61 +864,15 @@
   "buckets": {
     "yesterday": [
       {
-        "matchId": 559648,
-        "league": "F1",
-        "competitionName": "Ligue 1",
-        "competitionCrest": "https://crests.football-data.org/FL1.png",
-        "utcDate": "2026-10-26T19:30:00Z",
-        "date": "2026-10-26 19:30:00",
-        "status": "FINISHED",
-        "matchday": 8,
-        "bucket": "yesterday",
-        "home_team": "Paris SG",
-        "away_team": "Lyon",
-        "home_team_crest": "https://crests.football-data.org/524.png",
-        "away_team_crest": "https://crests.football-data.org/523.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "OVER",
-          "confidence": 0.654185,
-          "prob_over": 0.654185,
-          "prob_under": 0.345815
-        }
-      },
-      {
-        "matchId": 564721,
-        "league": "SP1",
-        "competitionName": "La Liga",
-        "competitionCrest": "https://crests.football-data.org/PD.png",
-        "utcDate": "2026-10-26T20:00:00Z",
-        "date": "2026-10-26 20:00:00",
-        "status": "FINISHED",
-        "matchday": 10,
-        "bucket": "yesterday",
-        "home_team": "Sevilla",
-        "away_team": "Osasuna",
-        "home_team_crest": "https://crests.football-data.org/559.png",
-        "away_team_crest": "https://crests.football-data.org/79.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.969695,
-          "prob_over": 0.030305,
-          "prob_under": 0.969695
-        }
-      }
-    ],
-    "today": [
-      {
         "matchId": 558555,
         "league": "I1",
         "competitionName": "Serie A",
         "competitionCrest": "https://crests.football-data.org/SA.png",
         "utcDate": "2026-10-27T19:45:00Z",
         "date": "2026-10-27 19:45:00",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 9,
-        "bucket": "today",
+        "bucket": "yesterday",
         "home_team": "Roma",
         "away_team": "Cagliari",
         "home_team_crest": "https://crests.football-data.org/100.png",
@@ -982,9 +892,9 @@
         "competitionCrest": "https://crests.football-data.org/SA.png",
         "utcDate": "2026-10-27T19:45:00Z",
         "date": "2026-10-27 19:45:00",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 9,
-        "bucket": "today",
+        "bucket": "yesterday",
         "home_team": "Torino",
         "away_team": "Como",
         "home_team_crest": "https://crests.football-data.org/586.png",
@@ -998,7 +908,7 @@
         }
       }
     ],
-    "upcoming": [
+    "today": [
       {
         "matchId": 558549,
         "league": "I1",
@@ -1008,7 +918,7 @@
         "date": "2026-10-28 17:30:00",
         "status": "TIMED",
         "matchday": 9,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Milan",
         "away_team": "Bologna",
         "home_team_crest": "https://crests.football-data.org/98.png",
@@ -1030,7 +940,7 @@
         "date": "2026-10-28 17:30:00",
         "status": "TIMED",
         "matchday": 9,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Venezia",
         "away_team": "Inter",
         "home_team_crest": "https://crests.football-data.org/454.png",
@@ -1052,7 +962,7 @@
         "date": "2026-10-28 17:30:00",
         "status": "TIMED",
         "matchday": 9,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Parma",
         "away_team": "Udinese",
         "home_team_crest": "https://crests.football-data.org/112.png",
@@ -1074,7 +984,7 @@
         "date": "2026-10-28 19:45:00",
         "status": "TIMED",
         "matchday": 9,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Genoa",
         "away_team": "Juventus",
         "home_team_crest": "https://crests.football-data.org/107.png",
@@ -1096,7 +1006,7 @@
         "date": "2026-10-28 19:45:00",
         "status": "TIMED",
         "matchday": 9,
-        "bucket": "upcoming",
+        "bucket": "today",
         "home_team": "Monza",
         "away_team": "Napoli",
         "home_team_crest": "https://crests.football-data.org/5911.png",
@@ -1108,7 +1018,9 @@
           "prob_over": 0.808423,
           "prob_under": 0.191577
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "matchId": 558551,
         "league": "I1",
@@ -1151,6 +1063,28 @@
           "confidence": 0.927728,
           "prob_over": 0.927728,
           "prob_under": 0.072272
+        }
+      },
+      {
+        "matchId": 559646,
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-10-30T18:00:00Z",
+        "date": "2026-10-30 18:00:00",
+        "status": "TIMED",
+        "matchday": 9,
+        "bucket": "upcoming",
+        "home_team": "Nice",
+        "away_team": "Rennes",
+        "home_team_crest": "https://crests.football-data.org/522.png",
+        "away_team_crest": "https://crests.football-data.org/529.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "UNDER",
+          "confidence": 0.855538,
+          "prob_over": 0.144462,
+          "prob_under": 0.855538
         }
       },
       {
@@ -1374,28 +1308,6 @@
         }
       },
       {
-        "matchId": 559646,
-        "league": "F1",
-        "competitionName": "Ligue 1",
-        "competitionCrest": "https://crests.football-data.org/FL1.png",
-        "utcDate": "2026-10-31T16:15:00Z",
-        "date": "2026-10-31 16:15:00",
-        "status": "TIMED",
-        "matchday": 9,
-        "bucket": "upcoming",
-        "home_team": "Nice",
-        "away_team": "Rennes",
-        "home_team_crest": "https://crests.football-data.org/522.png",
-        "away_team_crest": "https://crests.football-data.org/529.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.855538,
-          "prob_over": 0.144462,
-          "prob_under": 0.855538
-        }
-      },
-      {
         "matchId": 558542,
         "league": "I1",
         "competitionName": "Serie A",
@@ -1481,28 +1393,6 @@
           "confidence": 0.968303,
           "prob_over": 0.968303,
           "prob_under": 0.031697
-        }
-      },
-      {
-        "matchId": 559640,
-        "league": "F1",
-        "competitionName": "Ligue 1",
-        "competitionCrest": "https://crests.football-data.org/FL1.png",
-        "utcDate": "2026-10-31T19:45:00Z",
-        "date": "2026-10-31 19:45:00",
-        "status": "TIMED",
-        "matchday": 9,
-        "bucket": "upcoming",
-        "home_team": "Lyon",
-        "away_team": "Angers",
-        "home_team_crest": "https://crests.football-data.org/523.png",
-        "away_team_crest": "https://crests.football-data.org/532.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "OVER",
-          "confidence": 0.960013,
-          "prob_over": 0.960013,
-          "prob_under": 0.039987
         }
       },
       {
@@ -1635,6 +1525,28 @@
           "confidence": 0.931516,
           "prob_over": 0.931516,
           "prob_under": 0.068484
+        }
+      },
+      {
+        "matchId": 559640,
+        "league": "F1",
+        "competitionName": "Ligue 1",
+        "competitionCrest": "https://crests.football-data.org/FL1.png",
+        "utcDate": "2026-11-01T16:15:00Z",
+        "date": "2026-11-01 16:15:00",
+        "status": "TIMED",
+        "matchday": 9,
+        "bucket": "upcoming",
+        "home_team": "Lyon",
+        "away_team": "Angers",
+        "home_team_crest": "https://crests.football-data.org/523.png",
+        "away_team_crest": "https://crests.football-data.org/532.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.960013,
+          "prob_over": 0.960013,
+          "prob_under": 0.039987
         }
       },
       {
