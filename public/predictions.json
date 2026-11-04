@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T04:42:31Z",
+  "generatedAt": "2026-11-04T04:03:11Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -24,50 +24,6 @@
     }
   },
   "matches": [
-    {
-      "matchId": 558545,
-      "league": "I1",
-      "competitionName": "Serie A",
-      "competitionCrest": "https://crests.football-data.org/SA.png",
-      "utcDate": "2026-11-02T19:45:00Z",
-      "date": "2026-11-02 19:45:00",
-      "status": "FINISHED",
-      "matchday": 10,
-      "bucket": "yesterday",
-      "home_team": "Atalanta",
-      "away_team": "Parma",
-      "home_team_crest": "https://crests.football-data.org/102.png",
-      "away_team_crest": "https://crests.football-data.org/112.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "OVER",
-        "confidence": 0.664876,
-        "prob_over": 0.664876,
-        "prob_under": 0.335124
-      }
-    },
-    {
-      "matchId": 560622,
-      "league": "E0",
-      "competitionName": "Premier League",
-      "competitionCrest": "https://crests.football-data.org/PL.png",
-      "utcDate": "2026-11-02T20:00:00Z",
-      "date": "2026-11-02 20:00:00",
-      "status": "FINISHED",
-      "matchday": 9,
-      "bucket": "yesterday",
-      "home_team": "Newcastle",
-      "away_team": "Everton",
-      "home_team_crest": "https://crests.football-data.org/67.png",
-      "away_team_crest": "https://crests.football-data.org/62.png",
-      "prediction": {
-        "market": "over_2_5_goals",
-        "pick": "UNDER",
-        "confidence": 0.537351,
-        "prob_over": 0.462649,
-        "prob_under": 0.537351
-      }
-    },
     {
       "matchId": 558537,
       "league": "I1",
@@ -708,52 +664,7 @@
     }
   ],
   "buckets": {
-    "yesterday": [
-      {
-        "matchId": 558545,
-        "league": "I1",
-        "competitionName": "Serie A",
-        "competitionCrest": "https://crests.football-data.org/SA.png",
-        "utcDate": "2026-11-02T19:45:00Z",
-        "date": "2026-11-02 19:45:00",
-        "status": "FINISHED",
-        "matchday": 10,
-        "bucket": "yesterday",
-        "home_team": "Atalanta",
-        "away_team": "Parma",
-        "home_team_crest": "https://crests.football-data.org/102.png",
-        "away_team_crest": "https://crests.football-data.org/112.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "OVER",
-          "confidence": 0.664876,
-          "prob_over": 0.664876,
-          "prob_under": 0.335124
-        }
-      },
-      {
-        "matchId": 560622,
-        "league": "E0",
-        "competitionName": "Premier League",
-        "competitionCrest": "https://crests.football-data.org/PL.png",
-        "utcDate": "2026-11-02T20:00:00Z",
-        "date": "2026-11-02 20:00:00",
-        "status": "FINISHED",
-        "matchday": 9,
-        "bucket": "yesterday",
-        "home_team": "Newcastle",
-        "away_team": "Everton",
-        "home_team_crest": "https://crests.football-data.org/67.png",
-        "away_team_crest": "https://crests.football-data.org/62.png",
-        "prediction": {
-          "market": "over_2_5_goals",
-          "pick": "UNDER",
-          "confidence": 0.537351,
-          "prob_over": 0.462649,
-          "prob_under": 0.537351
-        }
-      }
-    ],
+    "yesterday": [],
     "today": [],
     "upcoming": [
       {
