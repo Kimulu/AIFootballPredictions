@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T05:01:14Z",
+  "generatedAt": "2026-11-13T04:16:49Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -23,10 +23,56 @@
       "crest": "https://crests.football-data.org/FL1.png"
     }
   },
-  "matches": [],
+  "matches": [
+    {
+      "matchId": 564748,
+      "league": "SP1",
+      "competitionName": "La Liga",
+      "competitionCrest": "https://crests.football-data.org/PD.png",
+      "utcDate": "2026-11-20T20:00:00Z",
+      "date": "2026-11-20 20:00:00",
+      "status": "TIMED",
+      "matchday": 13,
+      "bucket": "upcoming",
+      "home_team": "Ath Bilbao",
+      "away_team": "Espanol",
+      "home_team_crest": "https://crests.football-data.org/77.png",
+      "away_team_crest": "https://crests.football-data.org/80.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.779495,
+        "prob_over": 0.779495,
+        "prob_under": 0.220505
+      }
+    }
+  ],
   "buckets": {
     "yesterday": [],
     "today": [],
-    "upcoming": []
+    "upcoming": [
+      {
+        "matchId": 564748,
+        "league": "SP1",
+        "competitionName": "La Liga",
+        "competitionCrest": "https://crests.football-data.org/PD.png",
+        "utcDate": "2026-11-20T20:00:00Z",
+        "date": "2026-11-20 20:00:00",
+        "status": "TIMED",
+        "matchday": 13,
+        "bucket": "upcoming",
+        "home_team": "Ath Bilbao",
+        "away_team": "Espanol",
+        "home_team_crest": "https://crests.football-data.org/77.png",
+        "away_team_crest": "https://crests.football-data.org/80.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.779495,
+          "prob_over": 0.779495,
+          "prob_under": 0.220505
+        }
+      }
+    ]
   }
 }
