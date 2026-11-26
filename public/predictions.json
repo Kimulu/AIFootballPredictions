@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T06:13:16Z",
+  "generatedAt": "2026-11-26T06:05:32Z",
   "market": "over_2_5_goals",
   "competitions": {
     "E0": {
@@ -881,6 +881,28 @@
         "prob_over": 0.811691,
         "prob_under": 0.188309
       }
+    },
+    {
+      "matchId": 560662,
+      "league": "E0",
+      "competitionName": "Premier League",
+      "competitionCrest": "https://crests.football-data.org/PL.png",
+      "utcDate": "2026-12-03T20:00:00Z",
+      "date": "2026-12-03 20:00:00",
+      "status": "TIMED",
+      "matchday": 13,
+      "bucket": "upcoming",
+      "home_team": "Tottenham",
+      "away_team": "Fulham",
+      "home_team_crest": "https://crests.football-data.org/73.png",
+      "away_team_crest": "https://crests.football-data.org/63.png",
+      "prediction": {
+        "market": "over_2_5_goals",
+        "pick": "OVER",
+        "confidence": 0.690213,
+        "prob_over": 0.690213,
+        "prob_under": 0.309787
+      }
     }
   ],
   "buckets": {
@@ -1743,6 +1765,28 @@
           "confidence": 0.811691,
           "prob_over": 0.811691,
           "prob_under": 0.188309
+        }
+      },
+      {
+        "matchId": 560662,
+        "league": "E0",
+        "competitionName": "Premier League",
+        "competitionCrest": "https://crests.football-data.org/PL.png",
+        "utcDate": "2026-12-03T20:00:00Z",
+        "date": "2026-12-03 20:00:00",
+        "status": "TIMED",
+        "matchday": 13,
+        "bucket": "upcoming",
+        "home_team": "Tottenham",
+        "away_team": "Fulham",
+        "home_team_crest": "https://crests.football-data.org/73.png",
+        "away_team_crest": "https://crests.football-data.org/63.png",
+        "prediction": {
+          "market": "over_2_5_goals",
+          "pick": "OVER",
+          "confidence": 0.690213,
+          "prob_over": 0.690213,
+          "prob_under": 0.309787
         }
       }
     ]
